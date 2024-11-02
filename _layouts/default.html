@@ -18,10 +18,10 @@
         <h1><a href="{{ "/" }}">{{ site.title }}</a></h1>
 
         {% if site.logo %}
-          <img src="{{site.location | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.bio | default: site.github.project_tagline }}</p>
+        <p>{{ site.location | default: site.github.project_tagline }}</p>
         
       </header>
       <section>
