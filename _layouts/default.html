@@ -21,9 +21,8 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.bio | default: site.github.project_tagline }}</p>
-        
-        <p>{{ <img src="/assets/img/at-sign.svg" alt="mail" width="32" height="32"> <a href="mailto:umberto.tarantino@irif.fr">umberto.tarantino@irif.fr</a> }}</p>
+        <p>{{ site.bio | default: site.github.project_tagline 
+          <br><img src="/assets/img/at-sign.svg" alt="mail" width="16" height="16"> <a href="mailto:umberto.tarantino@irif.fr">umberto.tarantino@irif.fr</a> }}</p>
 
       </header>
       <section>
