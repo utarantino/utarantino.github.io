@@ -1,9 +1,26 @@
 title: Umberto Tarantino
 logo: /assets/img/logo.png
-description: PhD student in Theoretical Computer Science @ IRIF, Université Paris Cité
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+
+author:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Umberto Tarantino"
+  pronouns         : "he/they"  
+  description      : "PhD student in Theoretical Computer Science @ IRIF"
+  location         : "Office 4060 <br>8 place Aurélie Nemours <br>75013 Paris"
+  employer         : "Université Paris Cité"
+  uri              : # URL
+  email            : "umberto.tarantino@irif.fr" 
+
+  # Academic websites
+  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Tarantino%2C+U"
+  googlescholar    : # URL - Update with the correct link to your profile
+  researchgate     : "https://www.researchgate.net/profile/Umberto-Tarantino-3"
+  scopus           : # URL
+  
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
