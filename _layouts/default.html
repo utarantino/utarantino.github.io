@@ -15,15 +15,15 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1> {{ site.title }} </h1>
+        <h1><a href="{{ "/" }}">{{ site.title }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
           
-          {{ <img src="/assets/img/at-sign.svg"/> | <a href="mailto:umberto.tarantino@irif.fr">umberto.tarantino@irif.fr</a> }}</p>
+        <p>{{ <img src="/assets/img/at-sign.svg"/> <a href="mailto:umberto.tarantino@irif.fr">umberto.tarantino@irif.fr</a> }}</p>
 
       </header>
       <section>
