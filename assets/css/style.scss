@@ -323,21 +323,21 @@ span.links {
   background-color: #ccc;
   top: 0;
   bottom: 0;
-  left: 100px; /* Position the line after the year label */
+  left: 110px; /* Position the line after the year label */
 }
 
 /* Timeline Year Section */
 .timeline-year {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   position: relative;
 }
 
 /* Year label (h4 tag) */
 .year {
   margin-right: 10px; /* Space between the year and the line */
-  width: 90px; /* Fixed width for the year label */
+  width: 100px; /* Fixed width for the year label */
   height: auto;
   text-align: right;
 }
