@@ -312,7 +312,7 @@ span.links {
   max-width: 900px;
   margin: 0 auto;
   position: relative;
-  padding-left: 10px; /* Adds space to the left margin */
+  padding-left: 0px; /* no space to the left margin */
 }
 
 /* Continuous vertical line for the timeline */
@@ -330,7 +330,7 @@ span.links {
 .timeline-year {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -351,7 +351,7 @@ span.links {
 
 /* Individual event item */
 .timeline-item {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
