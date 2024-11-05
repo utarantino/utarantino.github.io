@@ -244,6 +244,27 @@ span.email {
     padding-right: 6px;
 }
 
+span.address {
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    background-image: url('/assets/img/marker-pin.svg');
+    background-repeat: no-repeat;
+    padding-right: 6px;
+}
+
+span.links {
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    background-image: url('/assets/img/attach.svg');
+    background-repeat: no-repeat;
+    padding-right: 6px;
+}
+
+
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
