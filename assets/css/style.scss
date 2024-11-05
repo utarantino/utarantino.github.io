@@ -312,7 +312,7 @@ span.links {
   max-width: 900px;
   margin: 0 auto;
   position: relative;
-  padding-left: 30px; /* Adds space to the left margin */
+  padding-left: 10px; /* Adds space to the left margin */
 }
 
 /* Continuous vertical line for the timeline */
@@ -339,6 +339,7 @@ span.links {
   margin-right: 10px; /* Space between the year and the line */
   width: 90px; /* Fixed width for the year label */
   height: auto;
+  text-align: right;
 }
 
 /* Container for events of each year */
