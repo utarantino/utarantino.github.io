@@ -12,7 +12,7 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
       <h4 class="year">2024</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p>U. Tarantino, <i>A category of arrow algebras for modified realizability</i> <br> [Online]. Available <a href="https://arxiv.org/abs/2407.02836">here</a>. </p>
+          <p><i>A category of arrow algebras for modified realizability</i> <br> Available <a href="https://arxiv.org/abs/2407.02836">here</a>. </p>
         </div>
       </div>
     </div>
