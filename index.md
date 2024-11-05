@@ -8,6 +8,6 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
 <h2>Preprints</h2>
 <div class="csl-bib-body">
   <div data-csl-entry-id="tarantino2024categoryarrowalgebrasmodified" class="csl-entry">
-    <div class="csl-left-margin">[1]</div><div class="csl-right-inline">U. Tarantino, <i>A category of arrow algebras for modified realizability</i>. 2024. [Online]. Available: https://arxiv.org/abs/2407.02836</div>
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline">U. Tarantino, <i>A category of arrow algebras for modified realizability</i>. 2024. [Online]. Available <a href="https://arxiv.org/abs/2407.02836">here</a>.</div>
   </div>
 </div>
