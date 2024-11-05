@@ -23,15 +23,16 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
 <h3>Teaching</h3>
 
 <div class="timeline">
-<div class="timeline-year">
-    <h4 class="year">Fall 2024</h4>
-      <div class="timeline-line"></div>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
-        </div>
-      </div>
-    </div>
+   <div class="timeline-year">
+       <h4 class="year">Fall 2024</h4>
+         <div class="timeline-line"></div>
+         <div class="timeline-events">
+           <div class="timeline-item">
+             <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
     <h4 class="year">Spring 2024</h4>
       <div class="timeline-line"></div>
       <div class="timeline-events">
@@ -40,3 +41,4 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
         </div>
       </div>
     </div>
+</div>
