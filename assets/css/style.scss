@@ -233,6 +233,14 @@ footer {
     top:52px;
   }
 }
+  span.email {
+      display: inline-block;
+      vertical-align: middle;
+      height: 16px;
+      width: 16px;
+      background-image: url('/assets/img/at-sign.png');
+      background-repeat: no-repeat;
+  }
 
 @media print, screen and (max-width: 720px) {
   body {
