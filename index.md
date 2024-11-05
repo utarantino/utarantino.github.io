@@ -6,14 +6,36 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
 
 
 <h3>Preprints</h3>
-  <div class="timeline">
-    <!-- Timeline Year 2024 -->
-    <div class="timeline-year">
-      <h4 class="year">2024</h4>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p><i>A category of arrow algebras for modified realizability</i> <br> Available <a href="https://arxiv.org/abs/2407.02836">here</a>. </p>
-        </div>
+
+<div class="timeline">
+  <!-- Timeline Year 2024 -->
+  <div class="timeline-year">
+    <h4 class="year">2024</h4>
+    <div class="timeline-events">
+      <div class="timeline-item">
+        <p><i>A category of arrow algebras for modified realizability</i> <br> Available <a href="https://arxiv.org/abs/2407.02836">here</a>. </p>
       </div>
     </div>
   </div>
+</div>
+
+
+<h3>Teaching</h3>
+
+<div class="timeline">
+  <!-- Timeline Year 2024 -->
+  <div class="timeline-year">
+    <h4 class="year">Fall 2024</h4>
+    <div class="timeline-events">
+      <div class="timeline-item">
+        <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a> </p>
+      </div>
+    </div>
+    <h4 class="year">Spring 2023</h4>
+    <div class="timeline-events">
+      <div class="timeline-item">
+        <p> Topos theory <br>MasterMath, <i>University of Utrecht</i> <br> Exercise classes. Lecturer: <a href="https://webspace.science.uu.nl/~ooste110/">Jaap van Oosten.</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
