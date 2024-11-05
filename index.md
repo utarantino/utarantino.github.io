@@ -28,13 +28,13 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
     <h4 class="year">Fall 2024</h4>
     <div class="timeline-events">
       <div class="timeline-item">
-        <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a> </p>
+        <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
       </div>
     </div>
     <h4 class="year">Spring 2023</h4>
     <div class="timeline-events">
       <div class="timeline-item">
-        <p> Topos theory <br>MasterMath, <i>University of Utrecht</i> <br> Exercise classes. Lecturer: <a href="https://webspace.science.uu.nl/~ooste110/">Jaap van Oosten.</a> </p>
+        <p> Topos theory <br>MasterMath, <i>University of Utrecht</i> <br> Exercise classes. Lecturer: <a href="https://webspace.science.uu.nl/~ooste110/">Jaap van Oosten</a>. </p>
       </div>
     </div>
   </div>
