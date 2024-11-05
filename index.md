@@ -12,27 +12,33 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
   </div>
 </div>
 
-<div class="timeline">
-    <div class="timeline-item">
-      <div class="year">2020</div>
-      <div class="event">
-        <div class="bullet"></div>
-        <p>Event or milestone description here.</p>
+  <div class="timeline">
+    <!-- Timeline Year 2024 -->
+    <div class="timeline-year">
+      <div class="year">2024</div>
+      <div class="timeline-events">
+        <div class="timeline-item">
+          <div class="bullet"></div>
+          <p>Event 1 in 2020</p>
+        </div>
+        <div class="timeline-item">
+          <div class="bullet"></div>
+          <p>Event 2 in 2020</p>
+        </div>
       </div>
     </div>
-    <div class="timeline-item">
-      <div class="year">2021</div>
-      <div class="event">
-        <div class="bullet"></div>
-        <p>Event or milestone description here.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
+    <!-- Timeline Year 2022 
+    <div class="timeline-year">
       <div class="year">2022</div>
-      <div class="event">
-        <div class="bullet"></div>
-        <p>Event or milestone description here.</p>
+      <div class="timeline-events">
+        <div class="timeline-item">
+          <div class="bullet"></div>
+          <p>Event 1 in 2022</p>
+        </div>
+        <div class="timeline-item">
+          <div class="bullet"></div>
+          <p>Event 2 in 2022</p>
+        </div>
       </div>
-    </div>
-    <!-- Add more timeline items as needed -->
+    </div> -->
   </div>
