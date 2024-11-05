@@ -15,28 +15,14 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
   <div class="timeline">
     <!-- Timeline Year 2024 -->
     <div class="timeline-year">
-      <div class="year">2020</div>
+      <h4 class="year">2024</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p>Event 1 in 2020</p>
+          <p>Event 1 in 2024</p>
         </div>
         <div class="timeline-item">
-          <p>Event 2 in 2020</p>
+          <p>Event 2 in 2024</p>
         </div>
       </div>
     </div>
-    <!-- Timeline Year 2022 
-    <div class="timeline-year">
-      <div class="year">2022</div>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <div class="bullet"></div>
-          <p>Event 1 in 2022</p>
-        </div>
-        <div class="timeline-item">
-          <div class="bullet"></div>
-          <p>Event 2 in 2022</p>
-        </div>
-      </div>
-    </div> -->
   </div>
