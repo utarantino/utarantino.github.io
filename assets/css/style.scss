@@ -312,7 +312,7 @@ span.links {
   max-width: 900px;
   margin: 0 auto;
   position: relative;
-  padding-left: 0px; /* no space to the left margin */
+  padding-left: 10px; /* space to the left margin */
 }
 
 /* Continuous vertical line for the timeline */
@@ -330,14 +330,14 @@ span.links {
 .timeline-year {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   position: relative;
 }
 
 /* Year label (h4 tag) */
 .year {
   margin-right: 10px; /* Space between the year and the line */
-  width: 100px; /* Fixed width for the year label */
+  width: 110px; /* Fixed width for the year label */
   height: auto;
   text-align: right;
 }
@@ -351,7 +351,7 @@ span.links {
 
 /* Individual event item */
 .timeline-item {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
