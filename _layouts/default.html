@@ -17,21 +17,17 @@
       <header>
         <h1><a href="{{ "/" }}">{{ site.title }}</a></h1>
         <small><p> {{site.pronouns}} </p></small>
-        
         {% if site.logo %}
           <img src="{{ site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <div class="col-md-4">
-            <p> {{site.bio}} <br>
+        <p> {{site.bio}} </p>
+           
+        <div class="contacts">
             <img src="/assets/img/mail.svg" alt="mail" width="16" height="16">  <a href="mailto:umberto.tarantino@irif.fr">umberto.tarantino@irif.fr</a> <br>
-            </p>
-        </div>
-        
-        <div class="col-md-4" style="margin-top:2%">
-          <dd><a href="https://arxiv.org/search/?searchtype=author&query=Tarantino%2C+U">ArXiv</a></dd> 
-          <dd><a href="https://www.researchgate.net/profile/Umberto-Tarantino-3">ResearchGate</a></dd>
-        </div>          
+            <a href="https://arxiv.org/search/?searchtype=author&query=Tarantino%2C+U">ArXiv</a> <br>
+            <a href="https://www.researchgate.net/profile/Umberto-Tarantino-3">ResearchGate</a>
+        </div>        
       </header>
       <section>
 
