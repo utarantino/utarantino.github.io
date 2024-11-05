@@ -315,6 +315,17 @@ span.links {
   padding-left: 30px; /* Adds space to the left margin */
 }
 
+/* Continuous vertical line for the timeline */
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: #ccc;
+  top: 0;
+  bottom: 0;
+  left: 70px; /* Position the line after the year label */
+}
+
 /* Timeline Year Section */
 .timeline-year {
   display: flex;
@@ -325,22 +336,9 @@ span.links {
 
 /* Year label (h4 tag) */
 .year {
-  /* font-weight: bold;
-  color: #333; */
   margin-right: 10px; /* Space between the year and the line */
   width: 70px; /* Fixed width for the year label */
   height: auto;
-}
-
-/* Vertical line container */
-.timeline-line {
-  width: 2px;
-  background-color: #ccc; /* Light gray line */
-  margin-right: 20px; /* Space between the line and the events */
-  height: 100%; /* Make the line extend to the full height of the events */
-  position: absolute;
-  top: 0;
-  left: 70px; /* Position the line after the year label */
 }
 
 /* Container for events of each year */
