@@ -317,18 +317,19 @@ span.links {
 
 /* Timeline Year Section */
 .timeline-year {
-  margin-bottom: 40px;
   display: flex;
   align-items: flex-start;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 /* Year label (h4 tag) */
 .year {
-  font-size: 22px;  /* Size of the year label */
-  font-weight: bold;
-  color: #333;
+  /* font-weight: bold;
+  color: #333; */
   margin-right: 10px; /* Space between the year and the line */
   width: 70px; /* Fixed width for the year label */
+  height: auto;
 }
 
 /* Vertical line container */
@@ -337,12 +338,16 @@ span.links {
   background-color: #ccc; /* Light gray line */
   margin-right: 20px; /* Space between the line and the events */
   height: 100%; /* Make the line extend to the full height of the events */
+  position: absolute;
+  top: 0;
+  left: 70px; /* Position the line after the year label */
 }
 
 /* Container for events of each year */
 .timeline-events {
   position: relative;
   width: 100%;
+  margin-left: 30px;
 }
 
 /* Individual event item */
@@ -354,8 +359,8 @@ span.links {
 
 /* Event description */
 .timeline-item p {
-  font-size: 16px; /* Size of the event text (same as regular text) */
   color: #333;
   line-height: 1.5;
 }
+
 
