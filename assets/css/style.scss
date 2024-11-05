@@ -351,14 +351,14 @@ span.links {
 
 /* Individual event item */
 .timeline-item {
-  margin-bottom: 4px; /* Smaller spacing between items within a year */
+  margin-bottom: 0px; /* Smaller spacing between items within a year */
   display: flex;
   align-items: center;
 }
 
 /* Add extra space only to the last item of each year */
 .timeline-year .timeline-item:last-child {
-  margin-bottom: 6px; /* Slightly larger space before the next year starts */
+  margin-bottom: 0px; /* Slightly larger space before the next year starts */
 }
 
 /* Event description */
