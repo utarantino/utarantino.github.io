@@ -305,71 +305,60 @@ span.links {
   }
 }
 
-
-/* Main container for timeline */
+/* Main container for the timeline */
 .timeline {
   width: 80%;
-  max-width: 800px;
-  margin: 20px auto;
+  max-width: 900px;
+  margin: 0 auto;
   position: relative;
   padding-left: 30px;
 }
 
-/* Year label */
+/* Timeline Year Section */
 .timeline-year {
   margin-bottom: 40px;
+  position: relative;
 }
 
-/* Year's header style */
+/* Year label on the left */
 .year {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
   color: #333;
+  position: absolute;
+  left: -100px; /* Place year to the left of the vertical line */
+  top: 0;
 }
 
-/* Container for all events under the year */
+/* Container for events of each year */
 .timeline-events {
   padding-left: 20px;
   position: relative;
 }
 
-/* Vertical line */
+/* Vertical line connecting all events */
 .timeline-events::before {
   content: '';
   position: absolute;
-  left: -10px;
+  left: -10px; /* Line will be slightly offset from the events */
   top: 0;
   bottom: 0;
   width: 2px;
-  background-color: #ccc;
+  background-color: #ccc; /* Light gray line */
 }
 
-/* Individual event (bullet and text) */
+/* Individual event item */
 .timeline-item {
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-/* Bullet style */
-.bullet {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: #333;
-  margin-right: 15px;
 }
 
 /* Event description */
 .timeline-item p {
-  background-color: #fff;
-  padding: 8px 15px;
-  border-radius: 4px;
-  border: 1px solid #ddd;
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
-  width: 100%;
-  box-sizing: border-box;
+  margin-left: 20px;
+  line-height: 1.5;
 }
+
