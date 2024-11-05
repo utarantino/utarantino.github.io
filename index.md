@@ -12,18 +12,27 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
   </div>
 </div>
 
-<div class="container mt-5 mb-5">
-	<div class="row">
-		<div class="col-md-6 offset-md-3">
-			<!-- <h4>Latest News</h4> -->
-			<ul class="timeline">
-				<li>
-					<i>A category of arrow algebras for modified realizability</i>
-					<a class="float-right">2024</a>
-					<p>U. Tarantino</p>
-          <p>[Online]. Available <a href="https://arxiv.org/abs/2407.02836">here</a>.</p>
-				</li>
-			</ul>
-		</div>
-	</div>
-</div>
+<div class="timeline">
+    <div class="timeline-item">
+      <div class="year">2020</div>
+      <div class="event">
+        <div class="bullet"></div>
+        <p>Event or milestone description here.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2021</div>
+      <div class="event">
+        <div class="bullet"></div>
+        <p>Event or milestone description here.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2022</div>
+      <div class="event">
+        <div class="bullet"></div>
+        <p>Event or milestone description here.</p>
+      </div>
+    </div>
+    <!-- Add more timeline items as needed -->
+  </div>
