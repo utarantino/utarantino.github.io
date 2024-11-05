@@ -306,39 +306,43 @@ span.links {
 }
 
 
+/* Main container for the timeline */
+.timeline {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 30px; /* Adds space to the left margin */
+}
+
 /* Timeline Year Section */
 .timeline-year {
   margin-bottom: 40px;
-  position: relative;
-  padding-left: 0; /* Remove extra padding */
+  display: flex;
+  align-items: flex-start;
 }
 
-/* Year label on the left */
+/* Year label (h4 tag) */
 .year {
-  /* font-weight: bold;
-  color: #333; */
-  position: absolute;
-  left: 0; /* Year is aligned with the left margin */
-  top: 0;
-  width: 70px; /* Adjust width of the year label container */
-  margin-bottom: 10px; /* Add space below the year label */
+  font-size: 22px;  /* Size of the year label */
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px; /* Space between the year and the line */
+  width: 70px; /* Fixed width for the year label */
+}
+
+/* Vertical line container */
+.timeline-line {
+  width: 2px;
+  background-color: #ccc; /* Light gray line */
+  margin-right: 20px; /* Space between the line and the events */
+  height: 100%; /* Make the line extend to the full height of the events */
 }
 
 /* Container for events of each year */
 .timeline-events {
-  padding-left: 80px; /* Space to the right of the year label for the vertical line and events */
   position: relative;
-}
-
-/* Vertical line connecting all events */
-.timeline-events::before {
-  content: '';
-  position: absolute;
-  left: 75px; /* The line starts at the left side of the event container */
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background-color: #ccc; /* Light gray line */
+  width: 100%;
 }
 
 /* Individual event item */
@@ -350,9 +354,8 @@ span.links {
 
 /* Event description */
 .timeline-item p {
-  /* font-size: 16px; 
-  color: #333; */
-  margin-left: 20px;
+  font-size: 16px; /* Size of the event text (same as regular text) */
+  color: #333;
   line-height: 1.5;
 }
 
