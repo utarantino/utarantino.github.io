@@ -28,9 +28,6 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
            <div class="timeline-item">
              <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
            </div>
-            <div class="timeline-item">
-             <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
-           </div>
          </div>
    </div>
    <div class="timeline-year">
