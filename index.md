@@ -11,3 +11,19 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
     <div class="csl-left-margin">[1]</div><div class="csl-right-inline">U. Tarantino, <i>A category of arrow algebras for modified realizability</i>. 2024. [Online]. Available <a href="https://arxiv.org/abs/2407.02836">here</a>.</div>
   </div>
 </div>
+
+<div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			<!-- <h4>Latest News</h4> -->
+			<ul class="timeline">
+				<li>
+					<i>A category of arrow algebras for modified realizability</i>
+					<a class="float-right">2024</a>
+					<p>U. Tarantino</p>
+          <p>[Online]. Available <a href="https://arxiv.org/abs/2407.02836">here</a>.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
