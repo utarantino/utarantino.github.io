@@ -307,17 +307,18 @@ span.links {
 
 /* Main container for the timeline */
 .timeline {
-  width: 80%;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
   position: relative;
-  padding-left: 30px;
+  padding-left: 30px; /* Adds space to the left margin */
 }
 
 /* Timeline Year Section */
 .timeline-year {
   margin-bottom: 40px;
   position: relative;
+  padding-left: 0; /* Remove extra padding */
 }
 
 /* Year label on the left */
@@ -326,13 +327,14 @@ span.links {
   font-weight: bold;
   color: #333;
   position: absolute;
-  left: -100px; /* Place year to the left of the vertical line */
+  left: 0; /* Year is aligned with the left margin */
   top: 0;
+  width: 70px; /* Adjust width of the year label container */
 }
 
 /* Container for events of each year */
 .timeline-events {
-  padding-left: 20px;
+  padding-left: 80px; /* Space to the right of the year label for the vertical line and events */
   position: relative;
 }
 
@@ -340,7 +342,7 @@ span.links {
 .timeline-events::before {
   content: '';
   position: absolute;
-  left: -10px; /* Line will be slightly offset from the events */
+  left: 0; /* The line starts at the left side of the event container */
   top: 0;
   bottom: 0;
   width: 2px;
@@ -361,4 +363,5 @@ span.links {
   margin-left: 20px;
   line-height: 1.5;
 }
+
 
