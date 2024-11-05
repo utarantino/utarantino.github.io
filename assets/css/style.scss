@@ -233,18 +233,15 @@ footer {
     top:52px;
   }
 }
-  span.email {
-      display: inline-block;
-      vertical-align: middle;
-      height: 16px;
-      width: 16px;
-      background-image: url('/assets/img/at-sign.svg');
-      background-repeat: no-repeat;
-  }
 
-h4.email {
-  padding:0 16px 0 0; /* whatever the dimensions the image needs */
-  background: url('/assets/img/at-sign.svg') no-repeat left center; /* Position left/right/whatever */
+span.email {
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    background-image: url('/assets/img/at-sign.svg');
+    background-repeat: no-repeat;
+    padding-right: 10px;
 }
 
 @media print, screen and (max-width: 720px) {
