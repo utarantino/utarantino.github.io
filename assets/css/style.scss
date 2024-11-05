@@ -317,8 +317,7 @@ span.links {
 .year {
   /* font-weight: bold;
   color: #333; */
-  position: relative;
-  float: right;
+  position: absolute;
   left: 0; /* Year is aligned with the left margin */
   top: 0;
   width: 70px; /* Adjust width of the year label container */
