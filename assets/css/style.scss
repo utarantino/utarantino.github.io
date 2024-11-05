@@ -240,8 +240,12 @@ footer {
       width: 16px;
       background-image: url('/assets/img/at-sign.svg');
       background-repeat: no-repeat;
-      margin-bottom : 0;
   }
+
+h4.email {
+  padding:0 16px 0 0; /* whatever the dimensions the image needs */
+  background-image: url('/assets/img/at-sign.svg') no-repeat left center; /* Position left/right/whatever */
+}
 
 @media print, screen and (max-width: 720px) {
   body {
