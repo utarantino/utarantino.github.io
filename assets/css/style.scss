@@ -330,7 +330,7 @@ span.links {
 .timeline-year {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 10px; /* Reduced margin to decrease space between year sections */
   position: relative;
 }
 
@@ -351,15 +351,20 @@ span.links {
 
 /* Individual event item */
 .timeline-item {
-  margin-bottom: 15px;
+  margin-bottom: 8px; /* Smaller spacing between items within a year */
   display: flex;
   align-items: center;
+}
+
+/* Add extra space only to the last item of each year */
+.timeline-year .timeline-item:last-child {
+  margin-bottom: 12px; /* Slightly larger space before the next year starts */
 }
 
 /* Event description */
 .timeline-item p {
   color: #333;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 
