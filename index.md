@@ -44,19 +44,20 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
 <h3>Talks</h3>
 
 <div class="timeline">
-   <div class="timeline-year">
-       <h4 class="year">Fall 2024</h4>
-         <div class="timeline-events">
-           <div class="timeline-item">
-             <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
-           </div>
-         </div>
-   </div>
+  <!-- <div class="timeline-year">
+    <h4 class="year">18 Dec 2024</h4>
+      <div class="timeline-events">
+        <div class="timeline-item">
+          <p> Triposes and toposes through arrow algebras <br>Categorical Logic and Higher Categories, <i>University of Manchester</i> <br> Slides available <a href="/slides/triposes-and-toposes-DutchCATs.pdf" download="download">here</a>. </p>
+        </div>
+      </div>
+    </div> -->
+
    <div class="timeline-year">
     <h4 class="year">5 June 2024</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> Triposes and toposes through arrow algebras <br>Dutch Categories And Types Seminar, <i>University of Leiden</i> <br> Slides available <a href="https://webspace.science.uu.nl/~ooste110/">here</a>. </p>
+          <p> Triposes and toposes through arrow algebras <br>Dutch Categories And Types Seminar, <i>University of Leiden</i> <br> Slides available <a href="/slides/triposes-and-toposes-DutchCATs.pdf" download="download">here</a>. </p>
         </div>
       </div>
     </div>
