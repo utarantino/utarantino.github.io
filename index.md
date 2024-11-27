@@ -57,7 +57,7 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
     <h4 class="year">5 June 2024</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> Triposes and toposes through arrow algebras <br>Dutch Categories And Types Seminar, <i>University of Leiden</i> <br> Slides available <a href="/slides/triposes-and-toposes-DutchCATs.pdf" download="download">here</a>. </p>
+          <p> Triposes and toposes through arrow algebras <br>Dutch Categories And Types Seminar, <i>University of Leiden</i> <br> Slides available <a href="/slides/triposes-and-toposes-DutchCATs.pdf" download>here</a>. </p>
         </div>
       </div>
     </div>
