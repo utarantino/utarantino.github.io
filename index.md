@@ -48,7 +48,7 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
       <h4 class="year">18 Dec 2024</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p> <i>Triposes and toposes via arrow algebras</i> <br>Categorical Logic and Higher Categories, <i>University of Manchester</i> <br> <!--Slides available <a href="/slides/triposes-and-toposes-DutchCATs.pdf" download>here</a>.--> </p>
+             <p> <i>Triposes and toposes via arrow algebras</i> <br>Categorical Logic and Higher Categories, <i>University of Manchester</i> <br> Slides available <a href="/slides/CLHC_2024-handout.pdf" download>here</a>. </p>
            </div>
          </div>
    </div>
