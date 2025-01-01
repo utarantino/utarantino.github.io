@@ -45,6 +45,14 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
 
 <div class="timeline">
    <div class="timeline-year">
+      <h4 class="year">16 Jan 2025</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+             <p> <i>A gentle introduction to categorical realizability</i> <br>Séminaire des membres non-permanents, <i>IRIF</i> <!--<br> Slides available <a href="/slides/CLHC_2024-handout.pdf" download>here</a>. --></p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
       <h4 class="year">18 Dec 2024</h4>
          <div class="timeline-events">
            <div class="timeline-item">
