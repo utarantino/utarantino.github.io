@@ -11,7 +11,7 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p><i>A category of arrow algebras for modified realizability</i> <br> Theory and Applications of Categories, vol. 44, 2025, no. 4, pp 132-180</a>. </p>
+          <p><i>A category of arrow algebras for modified realizability</i> <br> Theory and Applications of Categories, vol. 44, 2025, no. 4, pp 132-180. </p>
         </div>
       </div>
     </div>
