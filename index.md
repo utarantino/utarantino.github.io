@@ -11,7 +11,7 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p><i>A category of arrow algebras for modified realizability</i> <br> Theory and Applications of Categories, vol. 44, 2025, no. 4, pp 132-180. </p>
+          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44(4): 132-180, 2025 </p>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@ I am a PhD student in Theoretical Computer Science at <a href="https://www.irif.
       <h4 class="year">16 Jan 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p> <i>A gentle introduction to categorical realizability</i> <br>Séminaire des membres non-permanents, <i>IRIF</i> <!--<br> Slides available <a href="/slides/CLHC_2024-handout.pdf" download>here</a>. --></p>
+             <p> <i>A gentle introduction to categorical realizability</i> <br>Séminaire des membres non-permanents, <i>IRIF</i> <br> Slides available <a href="/slides/Nonperm-01-2025.pdf" download>here</a>. </p>
            </div>
          </div>
    </div>
