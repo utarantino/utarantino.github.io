@@ -60,6 +60,14 @@ I am a first-year PhD student in Theoretical Computer Science at <a href="https:
 
 <div class="timeline">
    <div class="timeline-year">
+      <h4 class="year">9 Apr 2025</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+              <p> <i>Arrow algebras, algebraic structures for modified realizability</i> <br>Realizability Workshop, <i>CIRM, Marseille</i> <!--<br> Slides available <a href="/slides/Nonperm-01-2025.pdf" download>here</a>.--> </p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
       <h4 class="year">16 Jan 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
@@ -83,4 +91,4 @@ I am a first-year PhD student in Theoretical Computer Science at <a href="https:
            </div>
          </div>
    </div>
-</div>
+</div> 
