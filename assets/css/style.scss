@@ -287,9 +287,10 @@ span.links {
 
 @media print, screen and (max-width: 480px) {
   img {
-    max-width: 200px;
+    max-width: 220px;
     width: 100%;
     height: auto;
+    vertical-align: middle;
   }
   
   body {
