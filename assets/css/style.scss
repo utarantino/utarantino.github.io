@@ -283,6 +283,11 @@ span.links {
   pre, code {
     word-wrap:normal;
   }
+
+  img.mob-img {
+    max-width: 100px;
+    height: auto;
+  }       
 }
 
 @media print, screen and (max-width: 480px) {
@@ -297,6 +302,11 @@ span.links {
   header li, header ul li + li + li {
     width:33%;
   }
+  
+  img.mob-img {
+    max-width: 100px;
+    height: auto;
+  }       
 }
 
 @media print {
