@@ -286,16 +286,21 @@ span.links {
 }
 
 @media print, screen and (max-width: 480px) {
+  img {
+    width: 50%;
+    height: auto;
+  }
+  
   body {
     padding:15px;
   }
-  
+
   header ul {
-    max-width:66%;
+    width:99%;
   }
 
   header li, header ul li + li + li {
-    max-width:33%;
+    width:33%;
   }
 }
 
