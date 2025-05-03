@@ -286,7 +286,7 @@ span.links {
 }
 
 @media print, screen and (max-width: 480px) {
-  .img_container {
+  img {
     max-width: 220px;
     width: 100%;
     height: auto;
