@@ -289,13 +289,13 @@ span.links {
   body {
     padding:15px;
   }
-
+  
   header ul {
-    width:66%;
+    max-width:66%;
   }
 
   header li, header ul li + li + li {
-    width:33%;
+    max-width:33%;
   }
 }
 
