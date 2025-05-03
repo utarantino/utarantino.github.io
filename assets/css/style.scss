@@ -290,9 +290,12 @@ span.links {
     max-width: 220px;
     width: 100%;
     height: auto;
+    object-fit: cover;
+    object-position: center;
     margin: auto;
+    min-width: 100%;
     vertical-align: middle;
-  }
+}
 
   body {
     padding:15px;
