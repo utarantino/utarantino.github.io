@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a first-year PhD student in Theoretical Computer Science at <a href="https://www.irif.fr">IRIF</a>, under the supervision of <a href="https://samvangool.net">Sam van Gool</a>. My main interest is categorical logic and duality theory: a central objective of my research project is to understand the relationship between ultracategories and polyadic spaces as semantical duals of first-order theories, with applications to topos theory and intuitionistic model theory.
+I am a first-year PhD student in Theoretical Computer Science at <a href="https://www.irif.fr">IRIF</a>, under the supervision of <a href="https://samvangool.net">Sam van Gool</a>. My main interest is categorical logic and duality theory: a central objective of my research project is to understand the relationship between ultracategories and polyadic spaces as semantical duals of first-order theories, with applications to topos theory and intuitionistic model theory. At IRIF, I co-organize the <a href="https://www.irif.fr/seminaires/topos/index">topos theory reading group</a>.
 
 Before that, I have obtained a Master's degree in Mathematics at the <a href="https://www.unimi.it/">Università degli Studi di Milano Statale</a>, but I spent the second year abroad at the <a href="https://www.uva.nl/en">University of Amsterdam</a> with a foot in the <a href="https://elo.mastermath.nl">MasterMath</a> program and the other in the <a href ="https://msclogic.illc.uva.nl">Master of Logic</a>. My Master's thesis, written at the <a href = "https://www.illc.uva.nl">ILLC</a> under the supervision of <a href="https://staff.fnwi.uva.nl/b.vandenberg3/">Benno van den Berg</a>, is available <a href="files/master-thesis.pdf">here</a>.
 
