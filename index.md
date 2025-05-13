@@ -64,10 +64,26 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
 
 <div class="timeline">
    <div class="timeline-year">
+      <h4 class="year">30 Apr 2025</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+              <p> <i>Introduction to elementary toposes</i> <br>Théorie des topos, <i>IRIF</i> </p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
       <h4 class="year">9 Apr 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
               <p> <i>Arrow algebras, algebraic structures for modified realizability</i> <br>Realizability Workshop, <i>CIRM, Marseille</i> [<a href="files/slides/Realizability_Marseille_2025.pdf">slides</a>] </p>
+           </div>
+         </div>
+   </div>
+      <div class="timeline-year">
+      <h4 class="year">12 Feb 2025</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+              <p> <i>Arrow algebras, algebraic structures for modified realizability</i> <br>GT Sémantique, <i>IRIF</i> </p>
            </div>
          </div>
    </div>
