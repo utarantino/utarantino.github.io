@@ -67,7 +67,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">9 Apr 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-              <p> <i>Arrow algebras, algebraic structures for modified realizability</i> <br>Realizability Workshop, <i>CIRM, Marseille</i> <br> Slides available <a href="files/slides/Realizability_Marseille_2025.pdf">here</a>. </p>
+              <p> <i>Arrow algebras, algebraic structures for modified realizability</i> <br>Realizability Workshop, <i>CIRM, Marseille</i> [<a href="files/slides/Realizability_Marseille_2025.pdf">slides</a>] </p>
            </div>
          </div>
    </div>
@@ -75,7 +75,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">16 Jan 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p> <i>A gentle introduction to categorical realizability</i> <br>Séminaire des membres non-permanents, <i>IRIF</i> <br> Slides available <a href="files/slides/Nonperm-01-2025.pdf">here</a>. </p>
+             <p> <i>A gentle introduction to categorical realizability</i> <br>Séminaire des membres non-permanents, <i>IRIF</i> [<a href="files/slides/Nonperm-01-2025.pdf">slides</a>] </p>
            </div>
          </div>
    </div>
@@ -83,7 +83,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">18 Dec 2024</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p> <i>Triposes and toposes via arrow algebras</i> <br>Categorical Logic and Higher Categories, <i>University of Manchester</i> <br> Slides available <a href="files/slides/CLHC_2024-handout.pdf">here</a>. </p>
+             <p> <i>Triposes and toposes via arrow algebras</i> <br>Categorical Logic and Higher Categories, <i>University of Manchester</i> [<a href="files/slides/CLHC_2024-handout.pdf">slides</a>] </p>
            </div>
          </div>
    </div>
@@ -91,7 +91,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
        <h4 class="year">5 June 2024</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p> <i>Triposes and toposes through arrow algebras</i> <br>Dutch Categories And Types Seminar, <i>University of Leiden</i> <br> Slides available <a href="files/slides/triposes-and-toposes-DutchCATs.pdf">here</a>. </p>
+             <p> <i>Triposes and toposes through arrow algebras</i> <br>Dutch Categories And Types Seminar, <i>University of Leiden</i> [<a href="files/slides/triposes-and-toposes-DutchCATs.pdf">slides</a>] </p>
            </div>
          </div>
    </div>
