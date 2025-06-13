@@ -8,6 +8,19 @@ Before that, I have obtained a Master's degree in Mathematics at the <a href="ht
 
 At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a> meetings and the <a href="https://www.irif.fr/seminaires/topos/index">topos theory reading group</a>.
 
+<h3>Preprints</h3>
+
+<div class="timeline">
+   <div class="timeline-year">
+      <h4 class="year">2024</h4>
+      <div class="timeline-events">
+        <div class="timeline-item">
+          <p><i>Ultracategories via Kan extensions of relative monads</i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a>. Available <a href="https://arxiv.org/abs/2506.09788">here</a>. </p>
+        </div>
+      </div>
+    </div>
+</div>
+
 <h3>Publications</h3>
 
 <div class="timeline">
