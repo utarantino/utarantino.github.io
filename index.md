@@ -12,7 +12,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
 
 <div class="timeline">
    <div class="timeline-year">
-      <h4 class="year">2024</h4>
+      <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
           <p><i>Ultracategories via Kan extensions of relative monads</i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a>. Available <a href="https://arxiv.org/abs/2506.09788">here</a>. </p>
