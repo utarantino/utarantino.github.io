@@ -82,9 +82,6 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
            <div class="timeline-item">
               <p> <i>Introduction to elementary toposes</i> <br>Théorie des topos, <i>IRIF</i> </p>
            </div>
-            <div class="timeline-item">
-              <p> <i>Introduction to elementary toposes</i> <br>Théorie des topos, <i>IRIF</i> </p>
-           </div>
          </div>
    </div>
    <div class="timeline-year">
