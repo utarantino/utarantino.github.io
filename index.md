@@ -77,6 +77,14 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
 
 <div class="timeline">
    <div class="timeline-year">
+      <h4 class="year">14 July 2025</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+              <p> <i>Where do ultracategories come from?</i> <br>CT2025, <i>University of Brno</i> </p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
       <h4 class="year">30 Apr 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
