@@ -4,7 +4,7 @@ layout: default
 
 I am a first-year PhD student in Theoretical Computer Science at <a href="https://www.irif.fr">IRIF</a>, under the supervision of <a href="https://samvangool.net">Sam van Gool</a>. My main interest is categorical logic and duality theory: a central objective of my research project is to understand the relationship between ultracategories and polyadic spaces as semantical duals of first-order theories, with applications to topos theory and intuitionistic model theory. 
 
-Before that, I have obtained a Master's degree in Mathematics at the <a href="https://www.unimi.it/">Università degli Studi di Milano Statale</a>, but I spent the second year abroad at the <a href="https://www.uva.nl/en">University of Amsterdam</a> with a foot in the <a href="https://elo.mastermath.nl">MasterMath</a> program and the other in the <a href ="https://msclogic.illc.uva.nl">Master of Logic</a>. My Master's thesis, written at the <a href = "https://www.illc.uva.nl">ILLC</a> under the supervision of <a href="https://staff.fnwi.uva.nl/b.vandenberg3/">Benno van den Berg</a>, is available <a href="files/master-thesis.pdf">here</a>.
+Before that, I have obtained a Master's degree in Mathematics at the <a href="https://www.unimi.it/">Università degli Studi di Milano Statale</a>, but I spent the second year abroad at the <a href="https://www.uva.nl/en">University of Amsterdam</a> with a foot in the <a href="https://elo.mastermath.nl">MasterMath</a> program and the other in the <a href ="https://msclogic.illc.uva.nl">Master of Logic</a>. My Master's thesis, written at the <a href = "https://www.illc.uva.nl">ILLC</a> under the supervision of <a href="https://staff.fnwi.uva.nl/b.vandenberg3/">Benno van den Berg</a>, is available <a href="files/master-thesis.pdf">here</a>, and it won the <a href="https://www.ailalogica.it/2025/06/13/vincitori-premio-32-edizione-2025/">2025 AILA 3+2 Award</a> for the best Master's thesis in Mathematical Logic.
 
 At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a> meetings and the <a href="https://www.irif.fr/seminaires/topos/index">topos theory reading group</a>.
 
@@ -80,7 +80,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">14 July 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-              <p> <i>Where do ultracategories come from?</i> <br>CT2025, <i>University of Brno</i> </p>
+              <p> <i>Where do ultracategories come from?</i> <br>CT2025, <i>University of Brno</i> [<a href="files/slides/ct2025.pdf">slides</a>] </p>
            </div>
          </div>
    </div>
