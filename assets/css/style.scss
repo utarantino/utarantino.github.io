@@ -177,7 +177,7 @@ header ul a strong {
 }
 
 section {
-  width:560px; /* changes the amount of white space between the header and the section */
+  width:580px; /* changes the amount of white space between the header and the section */
   float:right;
   padding-bottom:50px;
 }
@@ -311,7 +311,7 @@ span.links {
 /* Main container for the timeline */
 .timeline {
   width: 100%;
-  max-width: 900px;
+  max-width: 920px;
   margin: 0 auto;
   position: relative;
   padding-left: 10px; /* space to the left margin */
@@ -347,7 +347,7 @@ span.links {
 /* Container for events of each year */
 .timeline-events {
   position: relative;
-  width: 110%;
+  width: 100%;
   margin-left: 24px;
 }
 
