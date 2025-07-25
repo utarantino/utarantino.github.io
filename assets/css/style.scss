@@ -325,7 +325,7 @@ span.links {
   background-color: #ccc;
   top: 0;
   bottom: 0;
-  left: 22%;      /* 15% from the left edge of timeline */
+  left: 21%;      /* 15% from the left edge of timeline */
 }
 
 /* Timeline Year Section */
@@ -340,7 +340,7 @@ span.links {
 /* Year label (h4 tag) */
 .year {
   float: left;
-  width: 17%;        /* slightly less than 15% for margin */
+  width: 17%;        
   height: auto;
   text-align: right;
   margin-right: 4%;  /* space between year and vertical line */
@@ -350,7 +350,7 @@ span.links {
 .timeline-events {
   float: right;
   position: relative;
-  width: 74%;        /* rest of the space */
+  width: 75%;        /* rest of the space */
   margin-left: 4%;   /* space between vertical line and events */
 }
 
