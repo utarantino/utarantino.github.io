@@ -347,7 +347,7 @@ span.links {
 /* Container for events of each year */
 .timeline-events {
   position: relative;
-  width: 100%;
+  flex: 1;
   margin-left: 24px;
 }
 
