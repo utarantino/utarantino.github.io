@@ -62,7 +62,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:900px;
+  width:1000px;
   margin:0 auto;
 }
 
@@ -347,7 +347,7 @@ span.links {
 /* Container for events of each year */
 .timeline-events {
   position: relative;
-  flex: 1;
+  width: 100%;
   margin-left: 24px;
 }
 
