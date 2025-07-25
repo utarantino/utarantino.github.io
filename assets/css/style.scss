@@ -5,8 +5,8 @@
 
 body {
   background-color: #fff;
-  padding:50px;
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding:1rem;
+  font: 0.95rem -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
   font-weight:400;
 }
@@ -347,7 +347,7 @@ span.links {
 /* Container for events of each year */
 .timeline-events {
   position: relative;
-  width: 110%;
+  width: 100%;
   margin-left: 24px;
 }
 
