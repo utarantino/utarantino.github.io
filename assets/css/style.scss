@@ -343,7 +343,7 @@ span.links {
   width: 17%;        /* slightly less than 15% for margin */
   height: auto;
   text-align: right;
-  margin-right: 3%;  /* space between year and vertical line */
+  margin-right: 4%;  /* space between year and vertical line */
 }
 
 /* Container for events of each year */
@@ -351,7 +351,7 @@ span.links {
   float: right;
   position: relative;
   width: 75%;        /* rest of the space */
-  margin-left: 0%;   /* space between vertical line and events */
+  margin-left: 2%;   /* space between vertical line and events */
 }
 
 /* Individual event item */
