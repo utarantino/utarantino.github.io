@@ -80,7 +80,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">14 July 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-              <p> <i><a href="files/slides/ct2025.pdf">Where do ultracategories come from?</a></i> <br>CT2025, <i>University of Brno</i> </p>
+              <p> <i><a href="files/slides/ct2025.pdf">Where do ultracategories come from?</a></i> <br>CT2025, <i>Masaryk University</i> </p>
            </div>
          </div>
    </div>
