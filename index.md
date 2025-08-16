@@ -15,6 +15,11 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
+          <p> <i><a href="https://arxiv.org/abs/2508.09604">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a>.</p>
+        </div>
+      </div>
+      <div class="timeline-events">
+        <div class="timeline-item">
           <p> <i><a href="https://arxiv.org/abs/2506.09788">Ultracategories via Kan extensions of relative monads</a></i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a>.</p>
         </div>
       </div>
