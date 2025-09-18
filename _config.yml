@@ -20,7 +20,7 @@ arxiv            : "https://arxiv.org/search/?searchtype=author&query=Tarantino%
 googlescholar    : "https://scholar.google.com/citations?user=jEFOH84AAAAJ&hl=en"
 researchgate     : "https://www.researchgate.net/profile/Umberto-Tarantino-3"
 scopus           : # URL
-  
+
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
