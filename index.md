@@ -91,7 +91,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">18 Nov 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-              <p> <i>Ultracategories via Kan extensions of relative monads</i> <br>ItaCa Fest 2025 </p>
+              <p> <i><a href="files/slides/ItaCa-11-25.pdf">Ultracategories via Kan extensions of relative monads</a></i> <br>ItaCa Fest 2025 </p>
            </div>
          </div>
    </div>
