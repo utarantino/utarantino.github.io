@@ -88,6 +88,14 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
 
 <div class="timeline">
    <div class="timeline-year">
+      <h4 class="year">22 Dec 2025</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+              <p> <i>Toposes with enough points as categories of étale spaces</i> <br>ItaCa Workshop 2025 </p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
       <h4 class="year">18 Nov 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
