@@ -91,7 +91,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
     <h4 class="year">2025</h4>
         <div class="timeline-events">
           <div class="timeline-item">
-            <p> <i>Toposes with enough points as categories of étale spaces</i> <br>ItaCa Workshop 2025 </p>
+            <p> <i><a href="files/slides/ItaCa-workshop-2025.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>ItaCa Workshop 2025</p>
           </div>
           <div class="timeline-item">
             <p> <i><a href="files/slides/ItaCa-11-25.pdf">Ultracategories via Kan extensions of relative monads</a></i> <br>ItaCa Fest 2025 </p>
