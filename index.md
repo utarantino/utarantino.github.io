@@ -61,7 +61,15 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
        <h4 class="year">Fall 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
+             <p>Introduction à la programmation 2<br>L1 Informatique, <i>Université Paris Cité</i> <br>Lab classes (French). Lecturer: <a href="https://www.irif.fr/~petrisan/">Daniela Petrişan</a>. </p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
+       <h4 class="year">Fall 2025</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+             <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes (French). Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
            </div>
          </div>
    </div>
