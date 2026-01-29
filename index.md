@@ -58,7 +58,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
 
 <div class="timeline">
    <div class="timeline-year">
-       <h4 class="year">Fall 2025</h4>
+       <h4 class="year">Spring 2026</h4>
          <div class="timeline-events">
            <div class="timeline-item">
              <p>Introduction à la programmation 2<br>L1 Informatique, <i>Université Paris Cité</i> <br>Lab classes (French). Lecturer: <a href="https://www.irif.fr/~petrisan/">Daniela Petrişan</a>. </p>
