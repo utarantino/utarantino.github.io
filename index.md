@@ -18,6 +18,8 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
           <p> <i><a href="https://hal.science/hal-05480473v1">Profunctorial algebras</a></i> <br>Joint work with <a href="https://quentin.aristote.fr">Quentin Aristote</a>.</p>
         </div>
       </div>
+    </div>
+   <div class="timeline-year">
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
