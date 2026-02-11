@@ -90,7 +90,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
     <h4 class="year">2026</h4>
         <div class="timeline-events">
           <div class="timeline-item">
-            <p> <i>Toposes with enough points as categories of étale spaces</i> <br>Séminaires LoCal, <i>LIPN</i></p>
+            <p> <i><a href="files/slides/LoCal_02-2026.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>Séminaires LoCal, <i>LIPN</i></p>
           </div>
         </div>
     </div>
