@@ -274,6 +274,9 @@ span.links {
 
   header {
     padding:0;
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   header ul, header p.view {
