@@ -111,10 +111,14 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  width: 270px;
+  float: left;
+  position: fixed;
+  top: 50px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 header ul {
