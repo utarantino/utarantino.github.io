@@ -93,7 +93,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
           <p> <i><a href="files/slides/FormTop_04-2026.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>7th Workshop on Formal Topology, <i>Venice</i></p>
         </div>
         <div class="timeline-item">
-          <p> <i><a href="files/slides/LoCal_02-2026.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>Séminaires LoCal, <i>LIPN</i></p>
+          <p> <i>Toposes with enough points as categories of étale spaces</i> <br>Séminaires LoCal, <i>LIPN</i></p>
         </div>
     </div>
   </div>
@@ -101,7 +101,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
     <h4 class="year">2025</h4>
         <div class="timeline-events">
           <div class="timeline-item">
-            <p> <i><a href="files/slides/ItaCa-workshop-2025.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>ItaCa Workshop 2025, <i>Università degli Studi di Milano</i></p>
+            <p> <i>Toposes with enough points as categories of étale spaces</i> <br>ItaCa Workshop 2025, <i>Università degli Studi di Milano</i></p>
           </div>
           <div class="timeline-item">
             <p> <i><a href="files/slides/ItaCa-11-25.pdf">Ultracategories via Kan extensions of relative monads</a></i> <br>ItaCa Fest 2025 </p>
