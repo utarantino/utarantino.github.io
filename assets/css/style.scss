@@ -113,7 +113,10 @@ img {
 header {
   width:270px;
   float:left;
-  position:fixed;
+  position:sticky;
+  top: 50px; /* aligns with your body padding */
+  height: calc(100vh - 50px);
+  overflow-y: auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
