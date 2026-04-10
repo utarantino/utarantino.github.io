@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background-color: #fff;
   padding:50px;
@@ -62,8 +67,10 @@ a:hover small {
 }
 
 .wrapper {
-  width:900px;
-  margin:0 auto;
+  display: flex;
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 blockquote {
@@ -112,8 +119,7 @@ img {
 
 header {
   width:270px;
-  float:left;
-  position:fixed;
+  overflow-y: auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -177,9 +183,9 @@ header ul a strong {
 }
 
 section {
-  width:580px; /* changes the amount of white space between the header and the section */
-  float:right;
-  padding-bottom:50px;
+  flex: 1;
+  overflow-y: auto;   
+  padding-bottom: 50px;
 }
 
 small {
