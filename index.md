@@ -15,7 +15,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2026</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2508.09604">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a>.<br> to appear in Journal of Pure and Applied Algebra</p>
+          <p> <i><a href="https://arxiv.org/abs/2508.09604">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a><br> <i>to appear in </i> Journal of Pure and Applied Algebra</p>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2026</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2601.22721">Profunctorial algebras</a></i> <br>Joint work with <a href="https://quentin.aristote.fr">Quentin Aristote</a>.</p>
+          <p> <i><a href="https://arxiv.org/abs/2601.22721">Profunctorial algebras</a></i> <br>Joint work with <a href="https://quentin.aristote.fr">Quentin Aristote</a> </p>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2506.09788">Ultracategories via Kan extensions of relative monads</a></i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a>.</p>
+          <p> <i><a href="https://arxiv.org/abs/2506.09788">Ultracategories via Kan extensions of relative monads</a></i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a> </p>
         </div>
       </div>
     </div>
