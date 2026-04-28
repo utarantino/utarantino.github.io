@@ -8,6 +8,27 @@ Before that, I obtained a Master's degree in Mathematics at the <a href="https:/
 
 At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a> meetings and the <a href="https://www.irif.fr/seminaires/topos/index">topos theory reading group</a>. Check out the <a href="https://www.irif.fr/rencontres/pps2026/ultracategories-workshop">Ultracategories and Stone Duality Workshop</a>!
 
+<h3>Publications</h3>
+
+<div class="timeline">
+   <div class="timeline-year">
+      <h4 class="year">2026</h4>
+      <div class="timeline-events">
+        <div class="timeline-item">
+          <p> <i><a href="https://arxiv.org/abs/2508.09604">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a>.<br> to appear in Journal of Pure and Applied Algebra</p>
+        </div>
+      </div>
+    </div>
+   <div class="timeline-year">
+      <h4 class="year">2025</h4>
+      <div class="timeline-events">
+        <div class="timeline-item">
+          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44(4): 132-180, 2025 </p>
+        </div>
+      </div>
+    </div>
+</div>
+
 <h3>Preprints</h3>
 
 <div class="timeline">
@@ -23,27 +44,12 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2508.09604">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a>.</p>
-        </div>
-        <div class="timeline-item">
           <p> <i><a href="https://arxiv.org/abs/2506.09788">Ultracategories via Kan extensions of relative monads</a></i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a>.</p>
         </div>
       </div>
     </div>
 </div>
 
-<h3>Publications</h3>
-
-<div class="timeline">
-   <div class="timeline-year">
-      <h4 class="year">2025</h4>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44(4): 132-180, 2025 </p>
-        </div>
-      </div>
-    </div>
-</div>
 
 <h3>Teaching</h3>
 
