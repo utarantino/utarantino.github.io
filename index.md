@@ -15,7 +15,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2026</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://www.sciencedirect.com/science/article/pii/S0022404926001003?via%3Dihub">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a><br> <i>to appear in </i> Journal of Pure and Applied Algebra</p>
+          <p> <i><a href="https://www.sciencedirect.com/science/article/pii/S0022404926001003?via%3Dihub">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a><br> Journal of Pure and Applied Algebra, 230 (6): 108269</p>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44(4): 132-180, 2025 </p>
+          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44 (4): 132-180 </p>
         </div>
       </div>
     </div>
