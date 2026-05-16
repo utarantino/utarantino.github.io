@@ -321,7 +321,7 @@ span.links {
 /* Main container for the timeline */
 .timeline {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
   padding-left: 10px; /* space to the left margin */
@@ -360,7 +360,7 @@ span.links {
 .timeline-events {
   float: right;
   position: relative;
-  width: 85%;        /* rest of the space */
+  width: 75%;        /* rest of the space */
   margin-left: 4%;   /* space between vertical line and events */
 }
 
