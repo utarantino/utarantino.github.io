@@ -102,7 +102,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
           <p> <i>Toposes with enough points as categories of étale spaces</i> <br>Gothenburg Logic Seminar</p>
         </div>
         <div class="timeline-item">
-          <p> <i>2-dimensional topologies via profunctorial algebras</i> <br>Stokholm Logic Seminar</p>
+          <p> <i><a href="files/slides/slides-stk.pdf">2-dimensional topologies via profunctorial algebras</a></i> <br>Stockholm Logic Seminar</p>
         </div>
         <div class="timeline-item">
           <p> <i><a href="files/slides/FormTop_04-2026.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>7th Workshop on Formal Topology, <i>Venice</i></p>
