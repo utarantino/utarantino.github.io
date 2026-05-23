@@ -99,7 +99,7 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
           <p> <i>Conceptual completeness for geometric logic via ultraconvergence spaces</i> <br>Making Categorical Model Theory Accessible Workshop, <i>Masaryk University</i></p>
         </div>
         <div class="timeline-item">
-          <p> <i>Toposes with enough points as categories of étale spaces</i> <br>Gothenburg Logic Seminar</p>
+          <p> <i><a href="files/slides/slides-gbg.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>Gothenburg Logic Seminar</p>
         </div>
         <div class="timeline-item">
           <p> <i><a href="files/slides/slides-stk.pdf">2-dimensional topologies via profunctorial algebras</a></i> <br>Stockholm Logic Seminar</p>
