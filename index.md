@@ -36,6 +36,9 @@ At IRIF, I co-organize the <a href="https://www.irif.fr/portraits/queerif">QueeR
       <h4 class="year">2026</h4>
       <div class="timeline-events">
         <div class="timeline-item">
+          <p> <i><a href="https://arxiv.org/abs/2607.02250">Conceptual completeness of subgeometric logics</a></i> <br>Joint work with <a href="https://diliberti.github.io/">Ivan Di Liberti</a> and <a href="https://yelingyuan.fr/">Lingyuan Ye</a>. </p>
+        </div> 
+        <div class="timeline-item">
           <p> <i><a href="https://arxiv.org/abs/2601.22721">Profunctorial algebras</a></i> <br>Joint work with <a href="https://quentin.aristote.fr">Quentin Aristote</a>. </p>
         </div>
       </div>
