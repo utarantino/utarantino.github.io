@@ -102,6 +102,9 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
           <p> <i>Conceptual completeness for geometric logic via ultraconvergence spaces</i> <br>XXIX Incontro di Logica AILA 2026, <i>Rome</i></p>
         </div>
         <div class="timeline-item">
+          <p> <i>Conceptual completeness for geometric logic via ultraconvergence spaces</i> <br>TACL2026, <i>Krakow</i></p>
+        </div>
+        <div class="timeline-item">
           <p> <i><a href="files/slides/slides-MCMTA-workshop.pdf">Conceptual completeness for geometric logic via ultraconvergence spaces</a></i> <br>Making Categorical Model Theory Accessible Workshop, <i>Masaryk University</i></p>
         </div>
         <div class="timeline-item">
