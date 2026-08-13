@@ -105,7 +105,7 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
           <p> <i><a href="files/slides/tacl26-tarantino.pdf">Conceptual completeness for geometric logic via ultraconvergence spaces</a></i> <br>TACL 2026, <i>Krakow</i></p>
         </div>
         <div class="timeline-item">
-          <p> <i><a href="files/slides/slides-MCMTA-workshop.pdf">Conceptual completeness for geometric logic via ultraconvergence spaces</a></i> <br>Making Categorical Model Theory Accessible Workshop, <i>Masaryk University</i></p>
+          <p> <i><a href="files/slides/slides-MCMTA-workshop.pdf">Conceptual completeness for geometric logic via ultraconvergence spaces</a></i> <br>Making Categorical Model Theory Accessible, <i>Masaryk University</i></p>
         </div>
         <div class="timeline-item">
           <p> <i><a href="files/slides/slides-gbg.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>Gothenburg Logic Seminar</p>
