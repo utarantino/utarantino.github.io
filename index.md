@@ -58,6 +58,14 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
 
 <div class="timeline">
    <div class="timeline-year">
+       <h4 class="year">Fall 2026</h4>
+         <div class="timeline-events">
+           <div class="timeline-item">
+             <p>Logique<br>L3 Informatique, <i>Université Paris Cité</i> <br>Exercise classes (French). Lecturer: <a href="https://www.irif.fr/users/schmitz/index">Sylvain Schmitz</a>. </p>
+           </div>
+         </div>
+   </div>
+   <div class="timeline-year">
        <h4 class="year">Spring 2026</h4>
          <div class="timeline-events">
            <div class="timeline-item">
