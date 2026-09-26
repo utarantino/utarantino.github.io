@@ -1,0 +1,68 @@
+- label: "2026"
+  items:
+    - lines:
+      - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](files/slides/aila2026.pdf)*"
+      - "XXIX Incontro di Logica AILA 2026 · *Rome*"
+  
+    - lines:
+      - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](files/slides/tacl26-tarantino.pdf)*"
+      - "TACL 2026 · *Krakow*"
+
+    - lines:
+      - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](files/slides/slides-MCMTA-workshop.pdf)*"
+      - "Making Categorical Model Theory Accessible · *Masaryk University*"
+
+    - lines:
+      - "*[Toposes with enough points as categories of étale spaces](files/slides/slides-gbg.pdf)*"
+      - "Gothenburg Logic Seminar · *Göteborgs Universitet*"
+
+    - lines:
+      - "*[2-dimensional topologies via profunctorial algebras](files/slides/slides-stk.pdf)*"
+      - "Stockholm Logic Seminar · *Stockholms Universitet*"
+
+    - lines:
+      - "*[Toposes with enough points as categories of étale spaces](files/slides/FormTop_04-2026.pdf)*"
+      - "7th Workshop on Formal Topology · *Venice*"
+    - lines:
+      - "*Toposes with enough points as categories of étale spaces*"
+      - "Séminaires LoCal · *LIPN*"
+
+- label: "2025"
+  items:
+    - lines:
+      - "*Toposes with enough points as categories of étale spaces*"
+      - "ItaCa Workshop 2025 · *Università degli Studi di Milano*"
+
+    - lines:
+      - "*[Ultracategories via Kan extensions of relative monads](files/slides/ItaCa-11-25.pdf)*"
+      - "ItaCa Fest 2025 · *online*"
+
+    - lines:
+      - "*[Where do ultracategories come from?](files/slides/ct2025.pdf)*"
+      - "CT2025 · *Masaryk University*"
+
+    # - lines:
+    #   - "*[Introduction to elementary toposes](files/slides/intro-to-toposes.pdf)*"
+    #   - "Séminaire de théorie des topos · *IRIF
+
+    - lines:
+      - "*[Arrow algebras, algebraic structures for modified realizability](files/slides/Realizability_Marseille_2025.pdf)*"
+      - "Realizability Workshop · *CIRM, Marseille*"
+
+    - lines:
+      - "*Arrow algebras, algebraic structures for modified realizability*"
+      - "GT Sémantique · *IRIF*"
+
+    - lines:
+      - "*[A gentle introduction to categorical realizability](files/slides/Nonperm-01-2025.pdf)*"
+      - "Séminaire des membres non-permanents · *IRIF*"
+
+- label: "2024"
+  items:
+    - lines:
+      - "*[Triposes and toposes via arrow algebras](files/slides/CLHC_2024-handout.pdf)*"
+      - "Categorical Logic and Higher Categories · *University of Manchester*"
+
+    - lines:
+      - "*[Triposes and toposes through arrow algebras](files/slides/triposes-and-toposes-DutchCATs.pdf)*"
+      - "Dutch Categories And Types Seminar · *Universiteit Leiden*"

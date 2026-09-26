@@ -1,0 +1,15 @@
+- label: "2026"
+  items:
+    - lines:
+      - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](https://arxiv.org/abs/2607.02250)*"
+      - "Joint work with [Ivan Di Liberti](https://diliberti.github.io/) and [Lingyuan Ye](https://yelingyuan.fr/)"
+
+    - lines:
+      - "*[Profunctorial algebras](https://arxiv.org/abs/2601.22721)*"
+      - "Joint work with [Quentin Aristote](https://quentin.aristote.fr)"
+
+- label: "2025"
+  items:
+    - lines:
+      - "*[Ultracategories via Kan extensions of relative monads](https://arxiv.org/abs/2506.09788)*"
+      - "Joint work with [Joshua Wrigley](https://jlwrigley.github.io)"

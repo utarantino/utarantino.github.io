@@ -2,242 +2,26 @@
 layout: default
 ---
 
-I am a third-year PhD student in Theoretical Computer Science at <a href="https://www.irif.fr">IRIF</a>, under the supervision of <a href="https://samvangool.net">Sam van Gool</a>. My main interests are categorical logic and duality theory: a central objective of my research project is to understand ultracategories as semantic duals of first-order theories, with an eye towards possible applications to topos theory and intuitionistic model theory. I am also broadly interested in formal category theory as a structuralist approach to category theory itself.
+I am a third-year PhD student in Theoretical Computer Science at [IRIF](https://www.irif.fr), under the supervision of [Sam van Gool](https://samvangool.net). My main interests are categorical logic and duality theory: a central objective of my research project is to understand ultracategories as semantic duals of first-order theories, with an eye towards possible applications to topos theory and intuitionistic model theory. I am also broadly interested in formal category theory as a structuralist approach to category theory itself.
  
-Before that, I obtained a Master's degree in Mathematics at the <a href="https://www.unimi.it/">Università degli Studi di Milano Statale</a>, but I spent the second year abroad at the <a href="https://www.uva.nl/en">University of Amsterdam</a> with a foot in the <a href="https://elo.mastermath.nl">MasterMath</a> program and the other in the <a href ="https://msclogic.illc.uva.nl">Master of Logic</a>. My Master's thesis, written at the <a href = "https://www.illc.uva.nl">ILLC</a> under the supervision of <a href="https://staff.fnwi.uva.nl/b.vandenberg3/">Benno van den Berg</a>, is available <a href="files/master-thesis.pdf">here</a>, and it won the <a href="https://www.ailalogica.it/2025/06/13/vincitori-premio-32-edizione-2025/">2025 AILA 3+2 Award</a> for the best Master's thesis in Mathematical Logic.
+Before that, I obtained a Master's degree in Mathematics at the [Università degli Studi di Milano Statale](https://www.unimi.it/), but I spent the second year abroad at the [University of Amsterdam](https://www.uva.nl/en) with a foot in the [MasterMath](https://elo.mastermath.nl) program and the other in the [Master of Logic](https://msclogic.illc.uva.nl). My Master's thesis, written at the [ILLC](https://www.illc.uva.nl) under the supervision of [Benno van den Berg](https://staff.fnwi.uva.nl/b.vandenberg3/), is available [here](files/master-thesis.pdf), and it won the [2025 AILA 3+2 Award](https://www.ailalogica.it/2025/06/13/vincitori-premio-32-edizione-2025/) for the best Master's thesis in Mathematical Logic.
 
 ### Publications
 
-<div class="timeline">
-   <div class="timeline-year">
-      <h4 class="year">2026</h4>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p> <i><a href="https://www.sciencedirect.com/science/article/pii/S0022404926001003?via%3Dihub">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a> <br> Journal of Pure and Applied Algebra, 230 (6): 108269</p>
-        </div>
-      </div>
-    </div>
-   <div class="timeline-year">
-      <h4 class="year">2025</h4>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44 (4): 132-180 </p>
-        </div>
-      </div>
-    </div>
-</div>
+{% include timeline.html data=site.data.publications %}
 
 ### Preprints
 
-<div class="timeline">
-   <div class="timeline-year">
-      <h4 class="year">2026</h4>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2607.02250">Conceptual completeness for subgeometric logics</a></i> <br>Joint work with <a href="https://diliberti.github.io/">Ivan Di Liberti</a> and <a href="https://yelingyuan.fr/">Lingyuan Ye</a> </p>
-        </div> 
-        <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2601.22721">Profunctorial algebras</a></i> <br>Joint work with <a href="https://quentin.aristote.fr">Quentin Aristote</a> </p>
-        </div>
-      </div>
-    </div>
-   <div class="timeline-year">
-      <h4 class="year">2025</h4>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2506.09788">Ultracategories via Kan extensions of relative monads</a></i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a> </p>
-        </div>
-      </div>
-    </div>
-</div>
-
+{% include timeline.html data=site.data.preprints %}
 
 ### Teaching
 
-<div class="timeline">
-   <div class="timeline-year">
-       <h4 class="year">Fall 2026</h4>
-         <div class="timeline-events">
-           <div class="timeline-item">
-             <p>Logique · L3 Informatique, <i>Université Paris Cité</i> <br>Exercise classes (French) · Lecturer: <a href="https://www.irif.fr/users/schmitz/index">Sylvain Schmitz</a> </p>
-           </div>
-         </div>
-   </div>
-   <div class="timeline-year">
-       <h4 class="year">Spring 2026</h4>
-         <div class="timeline-events">
-           <div class="timeline-item">
-             <p>Introduction à la programmation 2 · L1 Informatique, <i>Université Paris Cité</i> <br>Lab classes (French) · Lecturer: <a href="https://www.irif.fr/~petrisan/">Daniela Petrişan</a> </p>
-           </div>
-         </div>
-   </div>
-   <div class="timeline-year">
-       <h4 class="year">Fall 2025</h4>
-         <div class="timeline-events">
-           <div class="timeline-item">
-             <p>Programmation 1 · S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes (French) · Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a> </p>
-           </div>
-         </div>
-   </div>
-   <div class="timeline-year">
-       <h4 class="year">Fall 2024</h4>
-         <div class="timeline-events">
-           <div class="timeline-item">
-             <p>Programmation 1 · S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes · Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a> </p>
-           </div>
-         </div>
-   </div>
-   <div class="timeline-year">
-    <h4 class="year">Spring 2024</h4>
-      <div class="timeline-events">
-        <div class="timeline-item">
-          <p> Topos theory · MasterMath, <i>University of Utrecht</i> <br> Exercise classes · Lecturer: <a href="https://webspace.science.uu.nl/~ooste110/">Jaap van Oosten</a> </p>
-        </div>
-      </div>
-    </div>
-</div>
-
+{% include timeline.html data=site.data.teaching %}
 
 ### Community and events
 
-<div class="timeline">
-
-  <div class="timeline-year">
-    <h4 class="year">2026 – today</h4>
-    <div class="timeline-events">
-      <div class="timeline-item">
-        <p>
-          Co-curator of the <i><a href="https://progetto-itaca.github.io">ItaCa</a></i> website
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-year">
-    <h4 class="year">2025 – today</h4>
-    <div class="timeline-events">
-      <div class="timeline-item">
-        <p>
-          Co-organizer of the <i><a href="https://www.irif.fr/seminaires/topos/index">Realizability reading group</a></i>
-          at IRIF
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-year">
-    <h4 class="year">2025 – today</h4>
-    <div class="timeline-events">
-      <div class="timeline-item">
-        <p>
-          Co-organizer of the <i><a href="https://www.irif.fr/portraits/queerif">queeRIF</a></i> meetings
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-year">
-    <h4 class="year">Dec 2026</h4>
-    <div class="timeline-events">
-        <div class="timeline-item">
-        <p>
-          Co-organizer of the
-          <i><a href="https://progetto-itaca.github.io/ItaCa-26/">7th ItaCa Workshop</a></i>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-year">
-    <h4 class="year">June 2026</h4>
-    <div class="timeline-events">
-      <div class="timeline-item">
-        <p>
-          Co-organizer of the
-          <i><a href="https://www.irif.fr/rencontres/pps2026/ultracategories-workshop">Ultracategories and Stone Duality Workshop</a></i>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-year">
-    <h4 class="year">2024 – 2025</h4>
-    <div class="timeline-events">
-        <div class="timeline-item">
-        <p>
-          Co-organizer of the
-          <i>Topos theory reading group</i> at IRIF
-        </p>
-      </div>
-    </div>
-  </div>
-
-</div>
+{% include timeline.html data=site.data.community %}
 
 ### Talks
- 
-<div class="timeline">
-  <div class="timeline-year">
-    <h4 class="year">2026</h4>
-    <div class="timeline-events">
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/aila2026.pdf">Conceptual completeness for geometric logic via ultraconvergence spaces</a></i> <br>XXIX Incontro di Logica AILA 2026, <i>Rome</i></p>
-        </div>
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/tacl26-tarantino.pdf">Conceptual completeness for geometric logic via ultraconvergence spaces</a></i> <br>TACL 2026, <i>Krakow</i></p>
-        </div>
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/slides-MCMTA-workshop.pdf">Conceptual completeness for geometric logic via ultraconvergence spaces</a></i> <br>Making Categorical Model Theory Accessible, <i>Masaryk University</i></p>
-        </div>
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/slides-gbg.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>Gothenburg Logic Seminar</p>
-        </div>
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/slides-stk.pdf">2-dimensional topologies via profunctorial algebras</a></i> <br>Stockholm Logic Seminar</p>
-        </div>
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/FormTop_04-2026.pdf">Toposes with enough points as categories of étale spaces</a></i> <br>7th Workshop on Formal Topology, <i>Venice</i></p>
-        </div>
-        <div class="timeline-item">
-          <p> <i>Toposes with enough points as categories of étale spaces</i> <br>Séminaires LoCal, <i>LIPN</i></p>
-        </div>
-    </div>
-  </div>
-  <div class="timeline-year">
-    <h4 class="year">2025</h4>
-        <div class="timeline-events">
-          <div class="timeline-item">
-            <p> <i>Toposes with enough points as categories of étale spaces</i> <br>ItaCa Workshop 2025, <i>Università degli Studi di Milano</i></p>
-          </div>
-          <div class="timeline-item">
-            <p> <i><a href="files/slides/ItaCa-11-25.pdf">Ultracategories via Kan extensions of relative monads</a></i> <br>ItaCa Fest 2025, <i>online</i> </p>
-          </div>
-          <div class="timeline-item">
-            <p> <i><a href="files/slides/ct2025.pdf">Where do ultracategories come from?</a></i> <br>CT2025, <i>Masaryk University</i> </p>
-          </div>
-          <!-- <div class="timeline-item">
-            <p> <i>Introduction to elementary toposes</i> <br>Théorie des topos, <i>IRIF</i> </p>
-          </div> -->
-          <div class="timeline-item">
-            <p> <i><a href="files/slides/Realizability_Marseille_2025.pdf">Arrow algebras, algebraic structures for modified realizability</a></i> <br>Realizability Workshop, <i>CIRM Marseille</i></p>
-          </div>
-          <div class="timeline-item">
-            <p> <i>Arrow algebras, algebraic structures for modified realizability</i> <br>GT Sémantique, <i>IRIF</i> </p>
-          </div>
-          <div class="timeline-item">
-            <p> <i><a href="files/slides/Nonperm-01-2025.pdf">A gentle introduction to categorical realizability</a></i> <br>Séminaire des membres non-permanents, <i>IRIF</i> </p>
-          </div>
-        </div>
-    </div>
-  <div class="timeline-year">
-    <h4 class="year">2024</h4>
-    <div class="timeline-events">
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/CLHC_2024-handout.pdf">Triposes and toposes via arrow algebras</a></i> <br>Categorical Logic and Higher Categories, <i>University of Manchester</i> </p>
-        </div>
-        <div class="timeline-item">
-          <p> <i><a href="files/slides/triposes-and-toposes-DutchCATs.pdf">Triposes and toposes through arrow algebras</a></i> <br>Dutch Categories And Types Seminar, <i>University of Leiden</i> </p>
-        </div>
-    </div>
-  </div>
-</div>  
+
+{% include timeline.html data=site.data.talks %}

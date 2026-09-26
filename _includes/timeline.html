@@ -1,0 +1,20 @@
+<div class="timeline">
+  {% for group in include.data %}
+    <div class="timeline-year">
+      <h4 class="year">{{ group.label }}</h4>
+
+      <div class="timeline-events">
+        {% for item in group.items %}
+          <div class="timeline-item">
+            {% for line in item.lines %}
+              {% assign rendered = line | markdownify | strip %}
+              <div class="timeline-line">
+                {{ rendered | remove: '<p>' | remove: '</p>' }}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
