@@ -62,12 +62,11 @@ a:hover small {
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 1000px;
+  width: 1000px;
   margin: 0 auto;
 
   display: grid;
-  grid-template-columns: 270px minmax(0, 1fr);
+  grid-template-columns: 270px 650px;
   column-gap: 80px;
   align-items: start;
 }
@@ -210,8 +209,8 @@ footer {
 @media print, screen and (max-width: 960px) {
 
   .wrapper {
-    width: 100%;
-    max-width: none;
+    width: auto;
+    margin: 0;
     grid-template-columns: 1fr;
     column-gap: 0;
   }
