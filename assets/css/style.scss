@@ -62,8 +62,14 @@ a:hover small {
 }
 
 .wrapper {
-  width:1000px;
-  margin:0 auto;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  column-gap: 80px;
+  align-items: start;
 }
 
 blockquote {
@@ -111,13 +117,14 @@ img {
 }
 
 header {
-  width: 270px;
-  float: left;
-  position: fixed;
+  position: sticky;
   top: 50px;
+  align-self: start;
+
   max-height: calc(100vh - 100px);
   overflow-y: auto;
   overflow-x: hidden;
+
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -181,9 +188,8 @@ header ul a strong {
 }
 
 section {
-  width:650px; /* changes the amount of white space between the header and the section */
-  float:right;
-  padding-bottom:50px;
+  min-width: 0;
+  padding-bottom: 50px;
 }
 
 small {
@@ -198,48 +204,43 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 @media print, screen and (max-width: 960px) {
 
-  div.wrapper {
-    width:auto;
-    margin:0;
+  .wrapper {
+    width: 100%;
+    max-width: none;
+    grid-template-columns: 1fr;
+    column-gap: 0;
   }
 
   header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
+    position: static;
+    width: auto;
   }
 
   header {
-    padding-right:320px;
-    max-height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    max-height: none;
+    overflow: visible;
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
   }
 
   header a small {
-    display:inline;
+    display: inline;
   }
 
   header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
+    position: absolute;
+    right: 50px;
+    top: 52px;
   }
 }
 
@@ -280,12 +281,11 @@ span.links {
   }
 
   header {
-    padding:0;
-    max-height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    padding: 0;
+    max-height: none;
+    overflow: visible;
   }
-
+  
   header ul, header p.view {
     position:static;
   }
