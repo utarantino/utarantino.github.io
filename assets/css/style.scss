@@ -284,7 +284,7 @@ hr {
     max-width: 100%;
     max-height: none;
     overflow: visible;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
   }
 
   main {
@@ -335,6 +335,12 @@ hr {
 
   pre, code {
     word-wrap:normal;
+  }
+
+  .profile-photo {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
   }
 }
 
