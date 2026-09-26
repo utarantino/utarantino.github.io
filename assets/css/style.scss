@@ -331,6 +331,10 @@ hr {
     padding: 0;
     max-height: none;
     overflow: visible;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   pre, code {
@@ -338,9 +342,9 @@ hr {
   }
 
   .profile-photo {
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
