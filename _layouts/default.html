@@ -9,6 +9,8 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" }}">{{ site.title }}</a></h1>
@@ -17,7 +19,7 @@
           {% if site.logo %}
             <img class="profile-photo"
                 src="{{ site.logo | relative_url }}"
-                alt="Portrait of {{ site.title }}">
+                alt="Portrait by Marta Meinardi">
           {% endif %}
 
           <p class="bio">{{ site.bio }}</p>     
@@ -25,15 +27,15 @@
           <div class="contacts">
 
             <address class="contact-details">
-              <h4><span class="email"></span>e-mail</h4>
+              <h4><span class="email" aria-hidden="true"></span>e-mail</h4>
               <p>tarantino <i>at</i> irif <i>dot</i> fr</p>
 
-              <h4><span class="address"></span>address</h4>
+              <h4><span class="address" aria-hidden="true"></span>address</h4>
               <p>{{ site.location }}</p>
             </address>
 
             <nav class="academic-profiles" aria-label="Academic profiles">
-              <h4><span class="links"></span>links</h4>
+              <h4><span class="links" aria-hidden="true"></span>links</h4>
 
               <div class="academic-links">
                 <a href="{{ site.arxiv }}">ArXiv</a>
@@ -45,11 +47,10 @@
 
           </div>        
       </header>
-      <section>
 
-      {{ content }}
-
-      </section>
+      <main id="main-content">
+        {{ content }}
+      </main>
     </div>
   </body>
 </html>
