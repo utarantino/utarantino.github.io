@@ -2,20 +2,18 @@
 layout: default
 ---
 
-I am a second-year PhD student in Theoretical Computer Science at <a href="https://www.irif.fr">IRIF</a>, under the supervision of <a href="https://samvangool.net">Sam van Gool</a>. My main interests are categorical logic and duality theory: a central objective of my research project is to understand ultracategories as semantic duals of first-order theories, with an eye towards possible applications to topos theory and intuitionistic model theory. I am also broadly interested in formal category theory as a structuralist approach to category theory itself.
+I am a third-year PhD student in Theoretical Computer Science at <a href="https://www.irif.fr">IRIF</a>, under the supervision of <a href="https://samvangool.net">Sam van Gool</a>. My main interests are categorical logic and duality theory: a central objective of my research project is to understand ultracategories as semantic duals of first-order theories, with an eye towards possible applications to topos theory and intuitionistic model theory. I am also broadly interested in formal category theory as a structuralist approach to category theory itself.
  
 Before that, I obtained a Master's degree in Mathematics at the <a href="https://www.unimi.it/">Università degli Studi di Milano Statale</a>, but I spent the second year abroad at the <a href="https://www.uva.nl/en">University of Amsterdam</a> with a foot in the <a href="https://elo.mastermath.nl">MasterMath</a> program and the other in the <a href ="https://msclogic.illc.uva.nl">Master of Logic</a>. My Master's thesis, written at the <a href = "https://www.illc.uva.nl">ILLC</a> under the supervision of <a href="https://staff.fnwi.uva.nl/b.vandenberg3/">Benno van den Berg</a>, is available <a href="files/master-thesis.pdf">here</a>, and it won the <a href="https://www.ailalogica.it/2025/06/13/vincitori-premio-32-edizione-2025/">2025 AILA 3+2 Award</a> for the best Master's thesis in Mathematical Logic.
 
-At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a> meetings and the <a href="https://www.irif.fr/seminaires/topos/index">topos theory reading group</a>. I also co-organized the <a href="https://www.irif.fr/rencontres/pps2026/ultracategories-workshop">Ultracategories and Stone Duality Workshop</a>.
-
-<h3>Publications</h3>
+### Publications
 
 <div class="timeline">
    <div class="timeline-year">
       <h4 class="year">2026</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://www.sciencedirect.com/science/article/pii/S0022404926001003?via%3Dihub">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a>. <br> Journal of Pure and Applied Algebra, 230 (6): 108269.</p>
+          <p> <i><a href="https://www.sciencedirect.com/science/article/pii/S0022404926001003?via%3Dihub">Toposes with enough points as categories of étale spaces</a></i> <br>Joint work with <a href="https://samvangool.net">Sam van Gool</a> and <a href="https://jeremie-marques.name">Jérémie Marquès</a> <br> Journal of Pure and Applied Algebra, 230 (6): 108269</p>
         </div>
       </div>
     </div>
@@ -23,23 +21,23 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44 (4): 132-180. </p>
+          <p><i><a href="http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html">A category of arrow algebras for modified realizability</a></i> <br> Theory and Applications of Categories, 44 (4): 132-180 </p>
         </div>
       </div>
     </div>
 </div>
 
-<h3>Preprints</h3>
+### Preprints
 
 <div class="timeline">
    <div class="timeline-year">
       <h4 class="year">2026</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2607.02250">Conceptual completeness for subgeometric logics</a></i> <br>Joint work with <a href="https://diliberti.github.io/">Ivan Di Liberti</a> and <a href="https://yelingyuan.fr/">Lingyuan Ye</a>. </p>
+          <p> <i><a href="https://arxiv.org/abs/2607.02250">Conceptual completeness for subgeometric logics</a></i> <br>Joint work with <a href="https://diliberti.github.io/">Ivan Di Liberti</a> and <a href="https://yelingyuan.fr/">Lingyuan Ye</a> </p>
         </div> 
         <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2601.22721">Profunctorial algebras</a></i> <br>Joint work with <a href="https://quentin.aristote.fr">Quentin Aristote</a>. </p>
+          <p> <i><a href="https://arxiv.org/abs/2601.22721">Profunctorial algebras</a></i> <br>Joint work with <a href="https://quentin.aristote.fr">Quentin Aristote</a> </p>
         </div>
       </div>
     </div>
@@ -47,21 +45,21 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
       <h4 class="year">2025</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> <i><a href="https://arxiv.org/abs/2506.09788">Ultracategories via Kan extensions of relative monads</a></i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a>. </p>
+          <p> <i><a href="https://arxiv.org/abs/2506.09788">Ultracategories via Kan extensions of relative monads</a></i> <br>Joint work with <a href="https://jlwrigley.github.io">Joshua Wrigley</a> </p>
         </div>
       </div>
     </div>
 </div>
 
 
-<h3>Teaching</h3>
+### Teaching
 
 <div class="timeline">
    <div class="timeline-year">
        <h4 class="year">Fall 2026</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p>Logique<br>L3 Informatique, <i>Université Paris Cité</i> <br>Exercise classes (French). Lecturer: <a href="https://www.irif.fr/users/schmitz/index">Sylvain Schmitz</a>. </p>
+             <p>Logique · L3 Informatique, <i>Université Paris Cité</i> <br>Exercise classes (French) · Lecturer: <a href="https://www.irif.fr/users/schmitz/index">Sylvain Schmitz</a> </p>
            </div>
          </div>
    </div>
@@ -69,7 +67,7 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
        <h4 class="year">Spring 2026</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p>Introduction à la programmation 2<br>L1 Informatique, <i>Université Paris Cité</i> <br>Lab classes (French). Lecturer: <a href="https://www.irif.fr/~petrisan/">Daniela Petrişan</a>. </p>
+             <p>Introduction à la programmation 2 · L1 Informatique, <i>Université Paris Cité</i> <br>Lab classes (French) · Lecturer: <a href="https://www.irif.fr/~petrisan/">Daniela Petrişan</a> </p>
            </div>
          </div>
    </div>
@@ -77,7 +75,7 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
        <h4 class="year">Fall 2025</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes (French). Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
+             <p>Programmation 1 · S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes (French) · Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a> </p>
            </div>
          </div>
    </div>
@@ -85,7 +83,7 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
        <h4 class="year">Fall 2024</h4>
          <div class="timeline-events">
            <div class="timeline-item">
-             <p>Programmation 1<br>S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes. Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a>. </p>
+             <p>Programmation 1 · S5 EIDD, <i>Université Paris Cité</i> <br>Lab classes · Lecturer: <a href="https://www.irif.fr/~charbit/">Pierre Charbit</a> </p>
            </div>
          </div>
    </div>
@@ -93,14 +91,90 @@ At IRIF, I co-run the <a href="https://www.irif.fr/portraits/queerif">QueeRIF</a
     <h4 class="year">Spring 2024</h4>
       <div class="timeline-events">
         <div class="timeline-item">
-          <p> Topos theory <br>MasterMath, <i>University of Utrecht</i> <br> Exercise classes. Lecturer: <a href="https://webspace.science.uu.nl/~ooste110/">Jaap van Oosten</a>. </p>
+          <p> Topos theory · MasterMath, <i>University of Utrecht</i> <br> Exercise classes · Lecturer: <a href="https://webspace.science.uu.nl/~ooste110/">Jaap van Oosten</a> </p>
         </div>
       </div>
     </div>
 </div>
 
 
-<h3>Talks</h3>
+### Community and events
+
+<div class="timeline">
+
+  <div class="timeline-year">
+    <h4 class="year">2026 – today</h4>
+    <div class="timeline-events">
+      <div class="timeline-item">
+        <p>
+          Co-curator of the <i><a href="https://progetto-itaca.github.io">ItaCa</a></i> website
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-year">
+    <h4 class="year">2025 – today</h4>
+    <div class="timeline-events">
+      <div class="timeline-item">
+        <p>
+          Co-organizer of the <i><a href="https://www.irif.fr/seminaires/topos/index">Realizability reading group</a></i>
+          at IRIF
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-year">
+    <h4 class="year">2025 – today</h4>
+    <div class="timeline-events">
+      <div class="timeline-item">
+        <p>
+          Co-organizer of the <i><a href="https://www.irif.fr/portraits/queerif">queeRIF</a></i> meetings
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-year">
+    <h4 class="year">Dec 2026</h4>
+    <div class="timeline-events">
+        <div class="timeline-item">
+        <p>
+          Co-organizer of the
+          <i><a href="https://progetto-itaca.github.io/ItaCa-26/">7th ItaCa Workshop</a></i>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-year">
+    <h4 class="year">June 2026</h4>
+    <div class="timeline-events">
+      <div class="timeline-item">
+        <p>
+          Co-organizer of the
+          <i><a href="https://www.irif.fr/rencontres/pps2026/ultracategories-workshop">Ultracategories and Stone Duality Workshop</a></i>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-year">
+    <h4 class="year">2024 – 2025</h4>
+    <div class="timeline-events">
+        <div class="timeline-item">
+        <p>
+          Co-organizer of the
+          <i>Topos theory reading group</i> at IRIF
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+### Talks
  
 <div class="timeline">
   <div class="timeline-year">
