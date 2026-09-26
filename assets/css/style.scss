@@ -116,6 +116,9 @@ img {
 }
 
 header {
+  width: auto;
+  float: none;
+
   position: sticky;
   top: 50px;
   align-self: start;
@@ -187,6 +190,9 @@ header ul a strong {
 }
 
 section {
+  width: auto;
+  float: none;
+
   min-width: 0;
   padding-bottom: 50px;
 }
@@ -203,6 +209,10 @@ hr {
 }
 
 footer {
+  width: auto;
+  float: none;
+  position: static;
+
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
