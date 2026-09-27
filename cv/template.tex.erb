@@ -1,0 +1,426 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[
+  top=1.45cm,
+  bottom=1.45cm,
+  left=1.55cm,
+  right=1.55cm
+]{geometry}
+
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{lastpage}
+
+% ------------------------------------------------------------
+% Typography
+% ------------------------------------------------------------
+
+% Match the websites macOS/system sans-serif look as closely as possible.
+\IfFontExistsTF{Helvetica Neue}{
+  \setmainfont{Helvetica Neue}
+}{
+  \setmainfont{TeX Gyre Heros}
+}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancyfoot[R]{%
+  {\small\color{cvmuted}\thepage/\pageref{LastPage}}%
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% ------------------------------------------------------------
+% Website palette
+% ------------------------------------------------------------
+
+\definecolor{cvtext}{HTML}{222222}
+\definecolor{cvheading}{HTML}{222222}
+\definecolor{cvaccent}{HTML}{702963}
+\definecolor{cvmuted}{HTML}{555555}
+
+\color{cvtext}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=cvtext,
+  linkcolor=cvtext
+}
+
+\urlstyle{same}
+
+% ------------------------------------------------------------
+% Layout
+% ------------------------------------------------------------
+
+\newlength{\cvdatewidth}
+\setlength{\cvdatewidth}{3.5cm}
+
+\newcommand{\cvsection}[1]{%
+  \Needspace{5\baselineskip}%
+  \vspace{1.35em}%
+  \noindent
+  \begin{minipage}[c]{\cvdatewidth}%
+    \raisebox{0.55ex}{%
+        \color{cvaccent}\rule{\linewidth}{2.4pt}%
+    }%
+  \end{minipage}%
+  \hspace{0.9em}%
+  {\fontsize{12.5}{15}\selectfont
+   \color{cvaccent}#1}%
+  \par
+  \vspace{0.6em}%
+}
+
+\newenvironment{cvtimeline}{%
+  \begin{list}{}{%
+    \setlength{\labelwidth}{\cvdatewidth}%
+    \setlength{\labelsep}{0.9em}%
+    \setlength{\leftmargin}{\dimexpr\cvdatewidth+0.9em\relax}%
+    \setlength{\rightmargin}{0pt}%
+    \setlength{\topsep}{0pt}%
+    \setlength{\partopsep}{0pt}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\itemsep}{0pt}%
+    \renewcommand{\makelabel}[1]{%
+      \hfill{\small\color{cvmuted}\strut ##1}%
+    }%
+  }%
+}{%
+  \end{list}%
+}
+
+\newcommand{\cvtimelineitem}[2]{%
+  \item[#1]#2%
+}
+
+\newcommand{\cvlabelentry}[2]{%
+  \noindent
+  \begin{minipage}[t]{\cvdatewidth}%
+    \vspace{0pt}%
+    \raggedleft\color{cvmuted}#1%
+  \end{minipage}%
+  \hspace{0.9em}%
+  \begin{minipage}[t]{\dimexpr\textwidth-\cvdatewidth-0.9em\relax}%
+    \vspace{0pt}%
+    #2%
+  \end{minipage}%
+  \par
+  \vspace{0.2em}%
+}
+
+\begin{document}
+
+% ============================================================
+% Header
+% ============================================================
+
+\begin{minipage}[t]{0.58\textwidth}
+{\fontsize{24.5}{28.5}\selectfont
+ \IfFontExistsTF{Helvetica Neue Medium}
+   {\fontspec{Helvetica Neue Medium}}
+   {\bfseries}
+ \color{cvaccent}
+ <%= tex(cv["name"]) %>}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.38\textwidth}
+  \raggedleft
+  \small
+
+<% if private_data["address"] %>
+  <% Array(private_data["address"]).each do |line| %>
+    <%= tex(line) %>\par
+  <% end %>
+<% end %>
+
+<% if private_data["phone"] %>
+  <%= tex(private_data["phone"]) %>\par
+<% end %>
+
+<% if private_data["email"] %>
+  \href{mailto:<%= private_data["email"] %>}
+       {<%= tex(private_data["email"]) %>}\par
+<% end %>
+
+<% if cv["pronouns"] %>
+  \textit{<%= tex(cv["pronouns"]) %>}
+<% end %>
+
+\end{minipage}
+
+\vspace{0.75em}
+
+% ============================================================
+% Research interests
+% ============================================================
+
+\cvsection{Research interests}
+
+<% Array(cv["research_interests"]).each do |interest| %>
+  \cvlabelentry{<%= tex(interest["label"]) %>}{<%= tex(interest["text"]) %>}
+<% end %>
+
+% ============================================================
+% Education
+% ============================================================
+
+\cvsection{Education}
+
+\begin{cvtimeline}
+
+<% education = Array(cv["education"]) %>
+<% education.each_with_index do |entry, index| %>
+
+  \cvtimelineitem{<%= tex(cv_date(entry)) %>}{%
+    {\color{cvheading}<%= tex(entry["degree"]) %>}
+    \textperiodcentered{}
+    {\color{cvmuted}<%= tex(entry["institution"]) %>}
+
+    <% if entry["thesis"] %>
+      \par
+      {\small\color{cvmuted}
+       \textit{Thesis:}
+       <%= tex(entry["thesis"]) %>}
+    <% end %>
+
+    <% if entry["advisors"] && !entry["advisors"].empty? %>
+      \par
+      {\small\color{cvmuted}
+       \textit{<%= entry["advisors"].length == 1 ? "Advisor:" : "Advisors:" %>}
+       <%= tex(entry["advisors"].join(" and ")) %>}
+    <% end %>
+
+    <% if entry["grade"] %>
+      \par
+      {\small\color{cvmuted}<%= tex(entry["grade"]) %>}
+    <% end %>
+  }
+
+  <% if index < education.length - 1 %>
+    \vspace{0.9em}
+  <% end %>
+
+<% end %>
+
+\end{cvtimeline}
+
+% ============================================================
+% Publications
+% ============================================================
+
+\cvsection{Publications}
+
+\begin{cvtimeline}
+
+<% groups = timeline_groups(data["publications"]) %>
+<% groups.each_with_index do |group, group_index| %>
+  <% group["items"].each_with_index do |item, item_index| %>
+
+    \cvtimelineitem{<%= item_index.zero? ? tex(cv_date(group)) : "" %>}{%
+      <%= render_item(item) %>
+    }
+
+    <% unless group_index == groups.length - 1 &&
+              item_index == group["items"].length - 1 %>
+
+      <% if item_index < group["items"].length - 1 %>
+        \vspace{0.35em}
+      <% else %>
+        \vspace{0.9em}
+      <% end %>
+
+    <% end %>
+
+  <% end %>
+<% end %>
+
+\end{cvtimeline}
+
+% ============================================================
+% Preprints
+% ============================================================
+
+\cvsection{Preprints}
+
+\begin{cvtimeline}
+
+<% groups = timeline_groups(data["preprints"]) %>
+<% groups.each_with_index do |group, group_index| %>
+  <% group["items"].each_with_index do |item, item_index| %>
+
+    \cvtimelineitem{<%= item_index.zero? ? tex(cv_date(group)) : "" %>}{%
+      <%= render_item(item) %>
+    }
+
+    <% unless group_index == groups.length - 1 &&
+              item_index == group["items"].length - 1 %>
+
+      <% if item_index < group["items"].length - 1 %>
+        \vspace{0.35em}
+      <% else %>
+        \vspace{0.9em}
+      <% end %>
+
+    <% end %>
+
+  <% end %>
+<% end %>
+
+\end{cvtimeline}
+
+% ============================================================
+% Teaching
+% ============================================================
+
+\cvsection{Teaching}
+
+\begin{cvtimeline}
+
+<% groups = timeline_groups(data["teaching"]) %>
+<% groups.each_with_index do |group, group_index| %>
+  <% group["items"].each_with_index do |item, item_index| %>
+
+    \cvtimelineitem{<%= item_index.zero? ? tex(cv_date(group)) : "" %>}{%
+      <%= render_item(item) %>
+    }
+
+    <% unless group_index == groups.length - 1 &&
+              item_index == group["items"].length - 1 %>
+
+      <% if item_index < group["items"].length - 1 %>
+        \vspace{0.35em}
+      <% else %>
+        \vspace{0.9em}
+      <% end %>
+
+    <% end %>
+
+  <% end %>
+<% end %>
+
+\end{cvtimeline}
+
+% ============================================================
+% Community and events
+% ============================================================
+
+\cvsection{Community and events}
+
+\begin{cvtimeline}
+
+<% groups = timeline_groups(data["community"]) %>
+<% groups.each_with_index do |group, group_index| %>
+  <% group["items"].each_with_index do |item, item_index| %>
+
+    \cvtimelineitem{<%= item_index.zero? ? tex(cv_date(group)) : "" %>}{%
+      <%= render_item(item) %>
+    }
+
+    <% unless group_index == groups.length - 1 &&
+              item_index == group["items"].length - 1 %>
+
+      <% if item_index < group["items"].length - 1 %>
+        \vspace{0.35em}
+      <% else %>
+        \vspace{0.9em}
+      <% end %>
+
+    <% end %>
+
+  <% end %>
+<% end %>
+
+\end{cvtimeline}
+
+% ============================================================
+% Talks
+% ============================================================
+
+\cvsection{Talks}
+
+\begin{cvtimeline}
+
+<% groups = timeline_groups(data["talks"]) %>
+<% groups.each_with_index do |group, group_index| %>
+  <% group["items"].each_with_index do |item, item_index| %>
+
+    \cvtimelineitem{<%= item_index.zero? ? tex(cv_date(group)) : "" %>}{%
+      <%= render_item(item) %>
+    }
+
+    <% unless group_index == groups.length - 1 &&
+              item_index == group["items"].length - 1 %>
+
+      <% if item_index < group["items"].length - 1 %>
+        \vspace{0.35em}
+      <% else %>
+        \vspace{0.9em}
+      <% end %>
+
+    <% end %>
+
+  <% end %>
+<% end %>
+
+\end{cvtimeline}
+
+% ============================================================
+% Awards
+% ============================================================
+
+\cvsection{Awards and scholarships}
+
+\begin{cvtimeline}
+
+<% awards = Array(cv["awards"]) %>
+<% awards.each_with_index do |award, index| %>
+
+  \cvtimelineitem{<%= tex(cv_date(award)) %>}{%
+    {\color{cvheading}<%= tex(award["title"]) %>}
+
+    <% Array(award["details"]).each do |detail| %>
+      \par
+      {\small\color{cvmuted}<%= tex(detail) %>}
+    <% end %>
+  }
+
+  <% if index < awards.length - 1 %>
+    \vspace{0.9em}
+  <% end %>
+
+<% end %>
+
+\end{cvtimeline}
+
+% ============================================================
+% Languages
+% ============================================================
+
+\cvsection{Languages}
+\vspace{-0.65em} 
+<% Array(cv["languages"]).each do |language| %>
+  \cvlabelentry{<%= tex(language["label"]) %>}{<%= tex(language["text"]) %>}
+<% end %>
+
+% ============================================================
+% Technical skills
+% ============================================================
+
+\cvsection{Technical skills}
+\vspace{-0.65em} 
+<% Array(cv["technical_skills"]).each do |skill| %>
+  \cvlabelentry{<%= tex(skill["label"]) %>}{<%= tex(skill["text"]) %>}
+<% end %>
+
+\end{document}

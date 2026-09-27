@@ -1,0 +1,69 @@
+name: "Umberto Tarantino"
+pronouns: "he/they"
+website: "https://utarantino.github.io"
+
+research_interests:
+  - label: "Main"
+    text: "Categorical logic, topos theory, duality theory"
+
+  - label: "Others"
+    text: "Intuitionistic logic, model theory, realizability, categorical semantics"
+
+education:
+  - start: "Oct 2024"
+    ongoing: true
+    degree: "PhD in Theoretical Computer Science"
+    institution: "IRIF, Université Paris Cité"
+    thesis: "Classifying topoi and intuitionistic model theory through ultracategories and polyadic spaces"
+    advisors:
+      - "Sam van Gool"
+
+  - start: "Sept 2023"
+    end: "July 2024"
+    degree: "Erasmus+"
+    institution: "Universiteit van Amsterdam"
+
+  - start: "Sept 2022"
+    end: "July 2024"
+    degree: "MSc in Mathematics"
+    institution: "Università degli Studi di Milano"
+    thesis: "A category of arrow algebras for modified realizability"
+    advisors:
+      - "Benno van den Berg"
+      - "Silvio Ghilardi"
+    grade: "110/110 cum laude"
+
+  - start: "Sept 2019"
+    end: "July 2022"
+    degree: "BSc in Mathematics"
+    institution: "Università degli Studi di Milano"
+    grade: "110/110 cum laude"
+    
+awards:
+  - date: "June 2025"
+    title: "AILA 3+2 Award"
+    details:
+      - "Best Master's Thesis Award of the Associazione Italiana di Logica e sue Applicazioni"
+
+  - date: "Oct 2024"
+    title: "Contrat International IDEX"
+    details:
+      - "Université Paris Cité"
+      - "Excellence scholarship for international PhD students"
+
+languages:
+  - label: "Italian"
+    text: "native"
+
+  - label: "English"
+    text: "fluent, CEFR C1"
+
+  - label: "French"
+    text: "intermediate"
+    
+technical_skills:
+  - label: "Programming"
+    text: "C, Java, F#"
+
+  - label: "Other"
+    text: "LaTeX, Z3, SPASS"

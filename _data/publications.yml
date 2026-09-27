@@ -1,11 +1,11 @@
-- label: "2026"
+- date: "2026"
   items:
     - lines:
         - "*[Toposes with enough points as categories of étale spaces](https://www.sciencedirect.com/science/article/pii/S0022404926001003)*"
         - "Joint work with [Sam van Gool](https://samvangool.net) and [Jérémie Marquès](https://jeremie-marques.name)"
         - "Journal of Pure and Applied Algebra, 230 (6): 108269"
 
-- label: "2025"
+- date: "2025"
   items:
     - lines:
       - "*[A category of arrow algebras for modified realizability](http://www.tac.mta.ca/tac/volumes/44/4/44-04abs.html)*"

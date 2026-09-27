@@ -1,4 +1,4 @@
-- label: "2026"
+- date: "2026"
   items:
     - lines:
       - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](files/slides/aila2026.pdf)*"
@@ -27,7 +27,7 @@
       - "*Toposes with enough points as categories of étale spaces*"
       - "Séminaires LoCal · *LIPN*"
 
-- label: "2025"
+- date: "2025"
   items:
     - lines:
       - "*Toposes with enough points as categories of étale spaces*"
@@ -57,7 +57,7 @@
       - "*[A gentle introduction to categorical realizability](files/slides/Nonperm-01-2025.pdf)*"
       - "Séminaire des membres non-permanents · *IRIF*"
 
-- label: "2024"
+- date: "2024"
   items:
     - lines:
       - "*[Triposes and toposes via arrow algebras](files/slides/CLHC_2024-handout.pdf)*"

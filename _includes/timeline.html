@@ -1,7 +1,22 @@
 <div class="timeline">
   {% for group in include.data %}
+
+    {% capture date_label %}
+      {% if group["date"] %}
+        {{ group["date"] }}
+      {% elsif group["ongoing"] %}
+        since {{ group["start"] }}
+      {% elsif group["end"] %}
+        {{ group["start"] }} – {{ group["end"] }}
+      {% elsif group["start"] %}
+        {{ group["start"] }}
+      {% else %}
+        {{ group["label"] }}
+      {% endif %}
+    {% endcapture %}
+
     <div class="timeline-year">
-      <h4 class="year">{{ group.label }}</h4>
+      <h4 class="year">{{ date_label | strip }}</h4>
 
       <div class="timeline-events">
         {% for item in group.items %}
@@ -16,5 +31,6 @@
         {% endfor %}
       </div>
     </div>
+
   {% endfor %}
 </div>
