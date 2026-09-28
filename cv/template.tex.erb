@@ -10,24 +10,22 @@
 \usepackage{fontspec}
 \usepackage{xcolor}
 \usepackage{hyperref}
-\usepackage{tabularx}
-\usepackage{array}
 \usepackage{microtype}
 \usepackage{needspace}
 \usepackage{lastpage}
+\usepackage{fancyhdr}
 
 % ------------------------------------------------------------
 % Typography
 % ------------------------------------------------------------
 
-% Match the websites macOS/system sans-serif look as closely as possible.
+% Match the websites macOS-system sans-serif look as closely as possible.
+
 \IfFontExistsTF{Helvetica Neue}{
   \setmainfont{Helvetica Neue}
 }{
   \setmainfont{TeX Gyre Heros}
 }
-
-\usepackage{fancyhdr}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -54,7 +52,9 @@
 \hypersetup{
   colorlinks=true,
   urlcolor=cvtext,
-  linkcolor=cvtext
+  linkcolor=cvtext,
+  pdftitle={Curriculum Vitae — Umberto Tarantino},
+  pdfauthor={Umberto Tarantino},
 }
 
 \urlstyle{same}

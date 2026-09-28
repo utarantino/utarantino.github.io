@@ -13,7 +13,7 @@
     
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" }}">{{ site.title }}</a></h1>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
           <p class="pronouns">{{ site.pronouns }}</p>
 
           {% if site.logo %}
@@ -38,11 +38,11 @@
               <h4><span class="links" aria-hidden="true"></span>links</h4>
 
               <div class="academic-links">
+                <a href="{{ '/cv/cv.pdf' | relative_url }}">CV</a>
                 <a href="{{ site.arxiv }}">ArXiv</a>
                 <a href="{{ site.hal }}">HAL</a>
                 <a href="{{ site.researchgate }}">ResearchGate</a>
                 <a href="{{ site.googlescholar }}">Google Scholar</a>
-                <a href="{{ '/cv/cv.pdf' | relative_url }}">CV</a>
               </div>
             </nav>
 

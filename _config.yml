@@ -3,12 +3,12 @@ logo: /assets/img/logo.png
 show_downloads: false
 description: "Umberto Tarantino — PhD student in theoretical computer science working on category theory, categorical logic, duality theory, and topos theory."
 lang: en
+url: "https://utarantino.github.io"
 
 plugins:
   - jekyll-seo-tag
   
 # Biographic information
-logo             : /assets/img/logo.png
 name             : "Umberto Tarantino"
 pronouns         : "he/they"  
 bio              : "PhD student at IRIF"

@@ -8,39 +8,41 @@ ROOT = File.expand_path("..", __dir__)
 class CvRenderer
   attr_reader :cv, :private_data, :data
 
-def initialize
-  @cv = load_yaml("_data/cv.yml")
+  def initialize
+    @cv = load_yaml("_data/cv.yml")
 
-  @private_data = load_yaml(
-    "cv/private.yml",
-    required: false
-  )
+    @private_data = load_yaml(
+      "cv/private.yml",
+      required: false
+    )
 
-  @data = {}
+    @data = {}
 
-  %w[
-    publications
-    preprints
-    teaching
-    community
-    talks
-  ].each do |name|
-    @data[name] = load_yaml("_data/#{name}.yml")
+    %w[
+      publications
+      preprints
+      teaching
+      community
+      talks
+    ].each do |name|
+      @data[name] = load_yaml("_data/#{name}.yml")
+    end
   end
-end
-    def load_yaml(path, required: true)
+
+  def load_yaml(path, required: true)
     full_path = File.join(ROOT, path)
 
     unless File.exist?(full_path)
-        raise "Missing required file: #{path}" if required
-        return {}
+      raise "Missing required file: #{path}" if required
+      return {}
     end
 
     YAML.safe_load(
-        File.read(full_path),
-        aliases: true
+      File.read(full_path),
+      aliases: true
     ) || {}
-    end
+  end
+
   # ----------------------------------------------------------
   # LaTeX escaping
   # ----------------------------------------------------------
@@ -84,21 +86,22 @@ end
   # Links
   # ----------------------------------------------------------
 
-def normalize_url(url)
-  return url if url.match?(/\Ahttps?:\/\//)
-  return url if url.start_with?("mailto:")
+  def normalize_url(url)
+    return url if url.match?(/\Ahttps?:\/\//)
+    return url if url.start_with?("mailto:")
 
-  website = cv["website"]
+    website = cv["website"]
 
-  unless website
-    raise "Missing 'website' in _data/cv.yml; it is needed to resolve relative links."
+    unless website
+      raise "Missing 'website' in _data/cv.yml; it is needed to resolve relative links."
+    end
+
+    base = website.sub(%r{/$}, "")
+    path = url.sub(%r{\A/}, "")
+
+    "#{base}/#{path}"
   end
 
-  base = website.sub(%r{/$}, "")
-  path = url.sub(%r{\A/}, "")
-
-  "#{base}/#{path}"
-end
   # ----------------------------------------------------------
   # Small Markdown subset used by the website YAML
   # ----------------------------------------------------------
@@ -154,21 +157,25 @@ end
 
     result
   end
-  
-    def cv_date(entry)
+
+  # ----------------------------------------------------------
+  # Dates
+  # ----------------------------------------------------------
+
+  def cv_date(entry)
     return entry["date"] if entry["date"]
 
     start_date = entry["start"]
 
     unless start_date
-        raise "Entry has no date information: #{entry.inspect}"
+      raise "Entry has no date information: #{entry.inspect}"
     end
 
     return "#{start_date} – present" if entry["ongoing"]
     return "#{start_date} – #{entry["end"]}" if entry["end"]
 
     start_date
-    end
+  end
 
   # ----------------------------------------------------------
   # Timeline data
@@ -188,17 +195,17 @@ end
     end
   end
 
-    def render_item(item)
+  def render_item(item)
     Array(item["lines"]).each_with_index.map do |line, index|
-        rendered = tex(line)
+      rendered = tex(line)
 
-        if index.zero?
+      if index.zero?
         "{\\color{cvtext} #{rendered}}"
-        else
+      else
         "\\par{\\small\\color{cvtext} #{rendered}}"
-        end
+      end
     end.join
-    end
+  end
 
   def template_binding
     binding
