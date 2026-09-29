@@ -327,24 +327,93 @@ hr {
     overflow: visible;
     width: 100%;
     max-width: none;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 16px;
   }
 
-  pre, code {
-    word-wrap:normal;
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  main h3 {
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+
+  .pronouns {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 18px;
   }
 
   .profile-photo {
-    width: 75%;
+    width: 180px;
+    max-width: 55%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 18px;
+  }
+
+  .bio {
+    margin-bottom: 10px;
+  }
+
+  .contacts {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 24px;
+    align-items: start;
+  }
+
+  .contact-details,
+  .academic-profiles {
+    min-width: 0;
+  }
+
+  .academic-profiles {
+    margin-top: 0;
+  }
+
+  .academic-links {
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  pre,
+  code {
+    word-wrap: normal;
   }
 }
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding: 18px;
+  }
+
+  header {
+    margin-bottom: 12px;
+  }
+
+  .bio {
+    margin-bottom: 8px;
+  }
+
+  .contacts {
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 16px;
+  }
+
+  .contacts h4 {
+    margin-top: 16px;
+    margin-bottom: 5px;
+  }
+
+  .contacts h4:first-child {
+    margin-top: 0;
+  }
+
+  .contacts p {
+    margin-bottom: 14px;
   }
 }
 
@@ -426,14 +495,30 @@ hr {
   .timeline {
     width: 100%;
     margin-left: 0;
-    padding-left: 0;
+    padding-left: 22px;
   }
 
   .timeline::before {
-    left: 60px;
+    left: 6px;
   }
 
   .timeline-year {
-    grid-template-columns: 48px 12px 16px minmax(0, 1fr);
+    display: block;
+    margin-bottom: 14px;
+  }
+
+  .year {
+    text-align: left;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: var(--color-muted);
+  }
+
+  .timeline-events {
+    width: 100%;
+  }
+
+  .timeline-item {
+    margin-bottom: 10px;
   }
 }
