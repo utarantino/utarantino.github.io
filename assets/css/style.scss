@@ -561,35 +561,26 @@ hr {
   transition: transform 0.15s ease;
 }
 
-/* Closed + hover: slide right */
-.home-section:not([open]) > summary:hover .section-chevron {
-  transform: translateX(2px) rotate(0deg);
+/* Open state: rotate downward */
+.home-section[open] > summary .section-chevron {
+  transform: translateX(0) rotate(90deg);
 }
 
-/* Open: stay right and rotate */
-.home-section[open] .section-chevron {
-  transform: translateX(2px) rotate(90deg);
-}
+/* Desktop/laptop hover behaviour only */
+@media (hover: hover) and (pointer: fine) {
+  .home-section > summary:hover {
+    color: var(--color-heading);
+  }
 
-.home-section > summary:hover {
-  color: var(--color-heading);
-  font-weight: 500;
+  .home-section:not([open]) > summary:hover .section-chevron {
+    transform: translateX(2px) rotate(0deg);
+  }
+
+  .home-section[open] > summary .section-chevron {
+    transform: translateX(2px) rotate(90deg);
+  }
 }
 
 .home-section > .timeline {
   margin-top: 16px;
-}
-
-@media print, screen and (max-width: 720px) {
-  .home-section:not([open]) > summary:hover .section-chevron {
-    transform: translateX(0) rotate(0deg);
-  }
-
-  .home-section[open] > summary .section-chevron {
-    transform: translateX(0) rotate(90deg);
-  }
-
-  .home-section > summary:active {
-    opacity: 0.7;
-  }
 }
