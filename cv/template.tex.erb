@@ -77,7 +77,10 @@
   \end{minipage}%
   \hspace{0.9em}%
   {\fontsize{12.5}{15}\selectfont
-   \color{cvaccent}#1}%
+  \IfFontExistsTF{Helvetica Neue Medium}
+    {\fontspec{Helvetica Neue Medium}}
+    {\bfseries}
+  \color{cvaccent}#1}%
   \par
   \vspace{0.6em}%
 }
