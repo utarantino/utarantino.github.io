@@ -154,7 +154,7 @@
 <% end %>
 
 <% if cv["pronouns"] %>
-  \textit{<%= tex(cv["pronouns"]) %>}
+  <%= tex(cv["pronouns"]) %>
 <% end %>
 
 \end{minipage}
@@ -166,7 +166,7 @@
 % ============================================================
 
 \cvsection{Research interests}
-
+\vspace{-0.65em} 
 <% Array(cv["research_interests"]).each do |interest| %>
   \cvlabelentry{<%= tex(interest["label"]) %>}{<%= tex(interest["text"]) %>}
 <% end %>
