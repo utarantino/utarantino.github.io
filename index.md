@@ -15,7 +15,9 @@ Before that, I obtained a Master's degree in Mathematics at the [Università deg
     <span>Publications</span>
   </summary>
 
-  {% include timeline.html data=site.data.publications %}
+  <div class="home-section-content">
+    {% include timeline.html data=site.data.publications %}
+  </div>
 </details>
 
 <details class="home-section" name="home-sections">
@@ -27,7 +29,9 @@ Before that, I obtained a Master's degree in Mathematics at the [Università deg
     <span>Preprints</span>
   </summary>
 
-  {% include timeline.html data=site.data.preprints %}
+  <div class="home-section-content">
+    {% include timeline.html data=site.data.preprints %}
+  </div>
 </details>
 
 <details class="home-section" name="home-sections">
@@ -39,7 +43,9 @@ Before that, I obtained a Master's degree in Mathematics at the [Università deg
     <span>Teaching</span>
   </summary>
 
-  {% include timeline.html data=site.data.teaching %}
+  <div class="home-section-content">
+    {% include timeline.html data=site.data.teaching %}
+  </div>
 </details>
 
 <details class="home-section" name="home-sections">
@@ -51,7 +57,9 @@ Before that, I obtained a Master's degree in Mathematics at the [Università deg
     <span>Community and events</span>
   </summary>
 
-  {% include timeline.html data=site.data.community %}
+  <div class="home-section-content">
+    {% include timeline.html data=site.data.community %}
+  </div>
 </details>
 
 <details class="home-section" name="home-sections">
@@ -63,5 +71,7 @@ Before that, I obtained a Master's degree in Mathematics at the [Università deg
     <span>Talks</span>
   </summary>
 
-  {% include timeline.html data=site.data.talks %}
+  <div class="home-section-content">
+    {% include timeline.html data=site.data.talks %}
+  </div>
 </details>

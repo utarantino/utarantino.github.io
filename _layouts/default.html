@@ -53,5 +53,117 @@
         {{ content }}
       </main>
     </div>
+
+  <script>
+    const sections = document.querySelectorAll('.home-section');
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let animating = false;
+
+    const timing = {
+      duration: 100,
+      easing: 'ease-out'
+    };
+
+    async function openSection(section) {
+      const summary = section.querySelector(':scope > summary');
+      const content = section.querySelector(':scope > .home-section-content');
+
+      section.open = true;
+
+      if (reducedMotion.matches) return;
+
+      const collapsedHeight = summary.offsetHeight;
+      const expandedHeight = section.offsetHeight;
+
+      section.style.overflow = 'hidden';
+
+      const heightAnimation = section.animate(
+        [
+          { height: `${collapsedHeight}px` },
+          { height: `${expandedHeight}px` }
+        ],
+        timing
+      );
+
+      const contentAnimation = content.animate(
+        [
+          { opacity: 0.65, transform: 'translateY(-2px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ],
+        timing
+      );
+
+      await Promise.all([
+        heightAnimation.finished,
+        contentAnimation.finished
+      ]).catch(() => {});
+
+      section.style.overflow = '';
+    }
+
+    async function closeSection(section) {
+      const summary = section.querySelector(':scope > summary');
+      const content = section.querySelector(':scope > .home-section-content');
+
+      if (reducedMotion.matches) {
+        section.open = false;
+        return;
+      }
+
+      const expandedHeight = section.offsetHeight;
+      const collapsedHeight = summary.offsetHeight;
+
+      section.style.overflow = 'hidden';
+
+      const heightAnimation = section.animate(
+        [
+          { height: `${expandedHeight}px` },
+          { height: `${collapsedHeight}px` }
+        ],
+        timing
+      );
+
+      const contentAnimation = content.animate(
+        [
+          { opacity: 1, transform: 'translateY(0)' },
+          { opacity: 0.65, transform: 'translateY(-2px)' }
+        ],
+        timing
+      );
+
+      await Promise.all([
+        heightAnimation.finished,
+        contentAnimation.finished
+      ]).catch(() => {});
+
+      section.open = false;
+      section.style.overflow = '';
+    }
+
+    sections.forEach(section => {
+      const summary = section.querySelector(':scope > summary');
+
+      summary.addEventListener('click', async event => {
+        event.preventDefault();
+
+        if (animating) return;
+        animating = true;
+
+        if (section.open) {
+          await closeSection(section);
+        } else {
+          const current = document.querySelector('.home-section[open]');
+
+          if (current && current !== section) {
+            await closeSection(current);
+          }
+
+          await openSection(section);
+        }
+
+        animating = false;
+      });
+    });
+  </script>
   </body>
 </html>

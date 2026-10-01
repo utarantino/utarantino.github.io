@@ -581,6 +581,10 @@ hr {
   }
 }
 
-.home-section > .timeline {
-  margin-top: 16px;
+.home-section-content {
+  padding-top: 16px;
+}
+
+.home-section-content > .timeline {
+  margin-top: 0;
 }
