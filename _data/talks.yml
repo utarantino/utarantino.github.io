@@ -1,6 +1,10 @@
 - date: "2026"
   items:
     - lines:
+      - "*An arrow-algebraic approach to realizability*"
+      - "CHoCoLa · *ENS Lyon*"
+  
+    - lines:
       - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](files/slides/aila2026.pdf)*"
       - "XXIX Incontro di Logica AILA 2026 · *Rome*"
   
