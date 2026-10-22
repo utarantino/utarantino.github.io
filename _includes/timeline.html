@@ -23,8 +23,15 @@
           <div class="timeline-item">
             {% for line in item.lines %}
               {% assign rendered = line | markdownify | strip %}
+              {% assign now = site.time | date: "%s" | plus: 0 %}
+              {% assign new_until = item.new_until | date: "%s" | plus: 0 %}
+
               <div class="timeline-line">
                 {{ rendered | remove: '<p>' | remove: '</p>' }}
+
+                {% if forloop.first and item.new_until and now <= new_until %}
+                  · <span class="new-tag">new</span>
+                {% endif %}
               </div>
             {% endfor %}
           </div>
