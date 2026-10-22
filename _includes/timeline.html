@@ -30,7 +30,11 @@
                 {{ rendered | remove: '<p>' | remove: '</p>' }}
 
                 {% if forloop.first and item.new_until and now <= new_until %}
-                  · <span class="new-tag">new</span>
+                  · <span class="timeline-tag">new</span>
+                {% endif %}
+
+                {% if forloop.first and item.upcoming %}
+                  · <span class="timeline-tag">upcoming</span>
                 {% endif %}
               </div>
             {% endfor %}

@@ -1,6 +1,7 @@
 - date: "2026"
   items:
-    - lines:
+    - upcoming: true 
+      lines:
       - "*An arrow-algebraic approach to realizability*"
       - "CHoCoLa · *ENS Lyon*"
   
