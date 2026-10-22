@@ -202,6 +202,10 @@ class CvRenderer
       if index.zero?
         "{\\color{cvtext} #{rendered}}"
       else
+        if index == 1 && item["invited"]
+          rendered += " \\textperiodcentered{} invited"
+        end
+
         "\\par{\\small\\color{cvtext} #{rendered}}"
       end
     end.join

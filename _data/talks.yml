@@ -1,9 +1,10 @@
 - date: "2026"
   items:
-    - upcoming: true 
+    - invited: true
+      upcoming: true 
       lines:
       - "*An arrow-algebraic approach to realizability*"
-      - "CHoCoLa · *ENS Lyon*"
+      - "CHoCoLa · *ENS de Lyon*"
   
     - lines:
       - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](files/slides/aila2026.pdf)*"
@@ -15,20 +16,23 @@
 
     - lines:
       - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](files/slides/slides-MCMTA-workshop.pdf)*"
-      - "Making Categorical Model Theory Accessible · *Masaryk University*"
+      - "Making Categorical Model Theory Accessible · *Masarykova Univerzita*"
 
-    - lines:
+    - invited: true
+      lines:
       - "*[Toposes with enough points as categories of étale spaces](files/slides/slides-gbg.pdf)*"
       - "Gothenburg Logic Seminar · *Göteborgs Universitet*"
 
-    - lines:
+    - invited: true
+      lines:
       - "*[2-dimensional topologies via profunctorial algebras](files/slides/slides-stk.pdf)*"
       - "Stockholm Logic Seminar · *Stockholms Universitet*"
 
     - lines:
       - "*[Toposes with enough points as categories of étale spaces](files/slides/FormTop_04-2026.pdf)*"
       - "7th Workshop on Formal Topology · *Venice*"
-    - lines:
+    - invited: true
+      lines:
       - "*Toposes with enough points as categories of étale spaces*"
       - "Séminaires LoCal · *LIPN*"
 
@@ -38,13 +42,14 @@
       - "*Toposes with enough points as categories of étale spaces*"
       - "ItaCa Workshop 2025 · *Università degli Studi di Milano*"
 
-    - lines:
+    - invited: true
+      lines:
       - "*[Ultracategories via Kan extensions of relative monads](files/slides/ItaCa-11-25.pdf)*"
       - "ItaCa Fest 2025 · *online*"
 
     - lines:
       - "*[Where do ultracategories come from?](files/slides/ct2025.pdf)*"
-      - "CT2025 · *Masaryk University*"
+      - "CT2025 · *Masarykova Univerzita*"
 
     # - lines:
     #   - "*[Introduction to elementary toposes](files/slides/intro-to-toposes.pdf)*"

@@ -4,6 +4,8 @@
 @import "rouge-github";
 
 :root {
+  color-scheme: light dark;
+
   --color-text: #595959;
   --color-heading: #222;
   --color-heading-secondary: #393939;
@@ -17,10 +19,43 @@
   --color-background: #fdfcfc;
   --color-code-background: #f8f8f8;
 
+  --color-code-text: #333;
+  --color-timeline: #ccc;
+
+  --icon-filter: none;
+
   --page-width: 1000px;
   --sidebar-width: 270px;
   --column-gap: 80px;
   --page-padding: 50px;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #180e14;
+
+    --color-heading: #f5eef2;
+    --color-heading-secondary: #e8dde4;
+    --color-heading-tertiary: #d8cbd3;
+
+    --color-text: #cdbfc7;
+    --color-muted: #a3919b;
+
+    --color-accent: #c8a5b7;
+    --color-accent-hover: #f2e9ee;
+    
+    --color-border: #35242e;
+    --color-code-background: #21151b;
+    --color-code-text: #dacdd4;
+
+    --color-timeline: #45303a;
+
+    --icon-filter: brightness(0) invert(1) opacity(0.78);
+  }
+
+  .profile-photo {
+    filter: saturate(0.98) contrast(0.96);
+  }
 }
 
 *,
@@ -143,7 +178,7 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
+  color: var(--color-code-text);
 }
 
 pre {
@@ -166,12 +201,12 @@ th, td {
 }
 
 dt {
-  color:#444;
+  color:var(--color-heading-tertiary);
   font-weight:500;
 }
 
 th {
-  color:#444;
+  color:var(--color-heading-tertiary);
 }
 
 img {
@@ -315,6 +350,13 @@ hr {
   background-image: url('/assets/img/attach.svg');
 }
 
+.email,
+.address,
+.links,
+.section-chevron {
+  filter: var(--icon-filter);
+}
+
 @media print, screen and (max-width: 720px) {
   body {
     padding: 30px;
@@ -443,7 +485,7 @@ hr {
   bottom: 0;
   left: 21%;
   width: 2px;
-  background-color: #ccc;
+  background-color: var(--color-timeline);
 }
 
 /* One year + its events */
@@ -488,12 +530,12 @@ hr {
 
 /* Event text */
 .timeline-line {
-  color: #333;
+  color: var(--color-code-text);
   line-height: 1.5;
 }
 
 .timeline-tag {
-  color: var(--color-accent-hover);
+  color: var(--color-accent);
   font-size: 9px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -599,4 +641,8 @@ hr {
 
 .home-section-content > .timeline {
   margin-top: 0;
+}
+
+.home-section .timeline-line:nth-child(n+2) {
+  font-size: 0.9em;
 }

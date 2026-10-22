@@ -33,6 +33,10 @@
                   · <span class="timeline-tag">new</span>
                 {% endif %}
 
+                {% if forloop.first and item.invited %}
+                  · <span class="timeline-tag">invited</span>
+                {% endif %}
+
                 {% if forloop.first and item.upcoming %}
                   · <span class="timeline-tag">upcoming</span>
                 {% endif %}
