@@ -1,9 +1,11 @@
 - date: "2026"
   items:
     - lines:
-      - "*[Conceptual completeness for geometric logic via ultraconvergence spaces](https://arxiv.org/abs/2607.02250)*"
+      - "*[Logic vs doctrines, a mirror symmetry](https://arxiv.org/abs/2610.29771)*"
       - "Joint work with [Ivan Di Liberti](https://diliberti.github.io/) and [Lingyuan Ye](https://yelingyuan.fr/)"
-
+    - lines:
+      - "*[Conceptual completeness for subgeometric logics](https://arxiv.org/abs/2607.02250)*"
+      - "Joint work with [Ivan Di Liberti](https://diliberti.github.io/) and [Lingyuan Ye](https://yelingyuan.fr/)"
     - lines:
       - "*[Profunctorial algebras](https://arxiv.org/abs/2601.22721)*"
       - "Joint work with [Quentin Aristote](https://quentin.aristote.fr)"
