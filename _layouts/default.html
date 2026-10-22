@@ -140,6 +140,10 @@
       section.style.overflow = '';
     }
 
+    const desktopAccordion = window.matchMedia(
+      '(hover: hover) and (pointer: fine)'
+    );
+
     sections.forEach(section => {
       const summary = section.querySelector(':scope > summary');
 
@@ -152,10 +156,12 @@
         if (section.open) {
           await closeSection(section);
         } else {
-          const current = document.querySelector('.home-section[open]');
+          if (desktopAccordion.matches) {
+            const current = document.querySelector('.home-section[open]');
 
-          if (current && current !== section) {
-            await closeSection(current);
+            if (current && current !== section) {
+              await closeSection(current);
+            }
           }
 
           await openSection(section);
@@ -165,5 +171,7 @@
       });
     });
   </script>
+
+  
   </body>
 </html>
