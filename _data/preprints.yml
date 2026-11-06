@@ -1,6 +1,10 @@
 - date: "2026"
   items:
     - lines:
+      - "*[Categorified convergence: dropping the 'ultra' from 'virtual ultracategories'](https://arxiv.org/abs/2611.08124)*"
+      - "Joint work with [Gabriel Saadia](https://gabriel-saadia.github.io)"
+      new_until: "2027-01-06"
+    - lines:
       - "*[Logics vs doctrines, a mirror symmetry](https://arxiv.org/abs/2610.29771)*"
       - "Joint work with [Ivan Di Liberti](https://diliberti.github.io/) and [Lingyuan Ye](https://yelingyuan.fr/)"
       new_until: "2026-12-22"
